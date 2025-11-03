@@ -1,4 +1,19 @@
 [
+  // HORSES
+  {
+    "name": "Horse Racing Arena",
+    "cost": 100,
+    "requiredTech": "Animal Husbandry",
+    "requiredResource": "Horses",
+    "uniques": ["[+1 Gold] from every specialist [in this city]", "[+10% Gold] [in this city]"]
+  },
+  {
+    "name": "Horse Breeding Center",
+    "cost": 160,
+    "requiredTech": "Chivalry",
+    "requiredResource": "Horses",
+    "uniques": ["[+1 Food] from Pasture tiles [in this city]", "New [Mounted] units start with [30] XP [in this city]"]
+  },
   {
     "name": "Horse Racing",
     "hurryCostModifier": 25,
@@ -73,6 +88,50 @@
     "requiredTech": "Refrigeration"
   },
   {
+    "name": "Equestrian Festival",
+    "cost": 200,
+    "requiredTech": "Refrigeration",
+    "requiredResource": "Horses",
+    "uniques": ["[+2 Culture] [in this city]", "[+1 Happiness] [in this city]"]
+  },
+  {
+    "name": "Mounted Training Grounds",
+    "cost": 180,
+    "requiredTech": "Horseback Riding",
+    "requiredResource": "Horses",
+    "uniques": ["[+15% Production] when training [Mounted] units [in this city]"]
+  },
+  {
+    "name": "Horse Breeding Ranch",
+    "cost": 220,
+    "requiredTech": "Biology",
+    "requiredResource": "Horses",
+    "uniques": ["[+1 Food] [in this city]", "Provides [2] [Horses]"]
+  },
+  {
+    "name": "Equine Research Lab",
+    "cost": 260,
+    "requiredTech": "Genetics",
+    "requiredResource": "Horses",
+    "uniques": ["[+3 Science] [in this city]", "[+1 Food] [in this city]"]
+  },
+  {
+    "name": "Grand Stable Complex",
+    "cost": 300,
+    "requiredTech": "Future Tech",
+    "requiredResource": "Horses",
+    "uniques": ["[+10% Gold] [in this city]", "[+10% Production] [in this city]"]
+  },
+
+  // IRON
+  {
+    "name": "Iron Foundry",
+    "cost": 140,
+    "requiredTech": "Iron Working",
+    "requiredResource": "Iron",
+    "uniques": ["[+2 Production] [in this city]", "[+10% Production] [in this city]"]
+  },
+  {
     "name": "Make Tools",
     "hurryCostModifier": 25,
     "production": 1,
@@ -114,5 +173,319 @@
       "Provides [3] [Aluminum]"
     ],
     "requiredTech": "Future Tech"
-  }
+  },
+  {
+    "name": "Weapon Workshop",
+    "cost": 190,
+    "requiredTech": "Steel",
+    "requiredResource": "Iron",
+    "uniques": ["[+1 Science] [in this city]", "New [Armored] units start with [30] XP [in this city]"]
+  },
+  {
+    "name": "Iron Crafts Guild",
+    "cost": 230,
+    "requiredTech": "Metallurgy",
+    "requiredResource": "Iron",
+    "uniques": ["[+2 Culture] [in this city]", "[+1 Gold] from every specialist [in this city]"]
+  },
+  {
+    "name": "Steel Manufactury",
+    "cost": 270,
+    "requiredTech": "Metallurgy",
+    "requiredResource": "Iron",
+    "uniques": ["[+2 Production] from Mine tiles [in this city]", "Consumes [1] [Iron]"]
+  },
+  {
+    "name": "Heavy Armor Forge",
+    "cost": 290,
+    "requiredTech": "Industrialization",
+    "requiredResource": "Iron",
+    "uniques": ["[+15% Production] when training [Armored] units [in this city]"]
+  },
+  {
+    "name": "Advanced Weapon Lab",
+    "cost": 310,
+    "requiredTech": "Combustion",
+    "requiredResource": "Iron",
+    "uniques": ["[+3 Science] [in this city]", "[+1 Production] [in this city]"]
+  },
+  {
+    "name": "Iron Monument",
+    "cost": 340,
+    "requiredTech": "Future Tech",
+    "requiredResource": "Iron",
+    "uniques": ["[+5 Culture] [in this city]", "[+2 Happiness] [in this city]"]
+  },
+
+  // COAL
+  {
+    "name": "Coal Power Plant",
+    "cost": 260,
+    "requiredTech": "Steam Power",
+    "requiredResource": "Coal",
+    "uniques": ["[+3 Production] [in this city]", "[+15% Production] [in this city]", "Consumes [1] [Coal]"]
+  },
+  {
+    "name": "Coal Processing Facility",
+    "cost": 280,
+    "requiredTech": "Railroad",
+    "requiredResource": "Coal",
+    "uniques": ["[+2 Gold] [in this city]", "[+1 Production] [in this city]"]
+  },
+  {
+    "name": "Coal Research Institute",
+    "cost": 320,
+    "requiredTech": "Electricity",
+    "requiredResource": "Coal",
+    "uniques": ["[+2 Science] from every specialist [in this city]"]
+  },
+  {
+    "name": "Coal Storage Yard",
+    "cost": 300,
+    "requiredTech": "Industrialization",
+    "requiredResource": "Coal",
+    "uniques": ["Provides [2] [Coal]"]
+  },
+  {
+    "name": "Coal Cultural Hall",
+    "cost": 280,
+    "requiredTech": "Radio",
+    "requiredResource": "Coal",
+    "uniques": ["[+3 Culture] [in this city]", "[+1 Happiness] [in this city]"]
+  },
+  {
+    "name": "Coal Refinement Plant",
+    "cost": 340,
+    "requiredTech": "Synthetic Fibers",
+    "requiredResource": "Coal",
+    "uniques": ["[+10% Production] [in this city]", "Consumes [1] [Coal]"]
+  },
+  {
+    "name": "Clean Coal Reactor",
+    "cost": 380,
+    "requiredTech": "Future Tech",
+    "requiredResource": "Coal",
+    "uniques": ["[+3 Science] [in this city]", "[+1 Happiness] [in this city]"]
+  },
+
+  // ALUMINUM
+  {
+    "name": "Aluminum Refinery",
+    "cost": 320,
+    "requiredTech": "Replaceable Parts",
+    "requiredResource": "Aluminum",
+    "uniques": ["[+2 Production] [in this city]", "[+1 Science] [in this city]"]
+  },
+  {
+    "name": "Aerospace Laboratory",
+    "cost": 380,
+    "requiredTech": "Rocketry",
+    "requiredResource": "Aluminum",
+    "uniques": ["[+3 Science] [in this city]", "New [Air] units start with [30] XP [in this city]"]
+  },
+  {
+    "name": "Aluminum Trade Hub",
+    "cost": 360,
+    "requiredTech": "Globalization",
+    "requiredResource": "Aluminum",
+    "uniques": ["[+3 Gold] [in this city]", "[+10% Gold] [in this city]"]
+  },
+  {
+    "name": "Light Alloy Factory",
+    "cost": 340,
+    "requiredTech": "Industrialization",
+    "requiredResource": "Aluminum",
+    "uniques": ["[+2 Production] from Mine tiles [in this city]"]
+  },
+  {
+    "name": "Aircraft Assembly Plant",
+    "cost": 400,
+    "requiredTech": "Advanced Flight",
+    "requiredResource": "Aluminum",
+    "uniques": ["[+15% Production] when training [Air] units [in this city]"]
+  },
+  {
+    "name": "Aluminum Arts Center",
+    "cost": 370,
+    "requiredTech": "Plastics",
+    "requiredResource": "Aluminum",
+    "uniques": ["[+3 Culture] [in this city]", "[+1 Happiness] [in this city]"]
+  },
+  {
+    "name": "Global Aluminum Syndicate",
+    "cost": 420,
+    "requiredTech": "Future Tech",
+    "requiredResource": "Aluminum",
+    "uniques": ["[+4 Gold] [in this city]", "[+2 Science] [in this city]"]
+  },
+
+  // URANIUM
+  {
+    "name": "Nuclear Research Center",
+    "cost": 400,
+    "requiredTech": "Atomic Theory",
+    "requiredResource": "Uranium",
+    "uniques": ["[+4 Science] [in this city]", "[+1 Culture] [in this city]"]
+  },
+  {
+    "name": "Uranium Power Reactor",
+    "cost": 440,
+    "requiredTech": "Nuclear Fission",
+    "requiredResource": "Uranium",
+    "uniques": ["[+5 Production] [in this city]", "[+15% Production] [in this city]", "Consumes [1] [Uranium]"]
+  },
+  {
+    "name": "Atomic Monument",
+    "cost": 420,
+    "requiredTech": "Particle Physics",
+    "requiredResource": "Uranium",
+    "uniques": ["[+3 Faith] [in this city]", "[+3 Culture] [in this city]"]
+  },
+  {
+    "name": "Radiation Research Lab",
+    "cost": 460,
+    "requiredTech": "Nuclear Fusion",
+    "requiredResource": "Uranium",
+    "uniques": ["[+4 Science] [in this city]", "[+1 Happiness] [in this city]"]
+  },
+  {
+    "name": "Uranium Defense Complex",
+    "cost": 480,
+    "requiredTech": "Advanced Ballistics",
+    "requiredResource": "Uranium",
+    "uniques": ["[+15% Production] when training [Nuclear] units [in this city]"]
+  },
+  {
+    "name": "Atomic Cultural Museum",
+    "cost": 460,
+    "requiredTech": "Robotics",
+    "requiredResource": "Uranium",
+    "uniques": ["[+5 Culture] [in this city]", "[+2 Happiness] [in this city]"]
+  },
+  {
+    "name": "Fusion Generator",
+    "cost": 500,
+    "requiredTech": "Future Tech",
+    "requiredResource": "Uranium",
+    "uniques": ["[+10% Production] [in this city]", "[+5 Science] [in this city]"]
+  },
+
+  // OIL
+  {
+    "name": "Oil Refinery",
+    "cost": 320,
+    "requiredTech": "Plastics",
+    "requiredResource": "Oil",
+    "uniques": ["[+2 Production] [in this city]", "[+2 Gold] [in this city]", "Consumes [1] [Oil]"]
+  },
+  {
+    "name": "Petrochemical Lab",
+    "cost": 360,
+    "requiredTech": "Chemistry",
+    "requiredResource": "Oil",
+    "uniques": ["[+3 Science] [in this city]", "[+10% Science] [in this city]"]
+  },
+  {
+    "name": "Oil Consortium",
+    "cost": 380,
+    "requiredTech": "Globalization",
+    "requiredResource": "Oil",
+    "uniques": ["[+3 Gold] from every specialist [in this city]", "[+1 Happiness] [in this city]"]
+  },
+  {
+    "name": "Oil Power Station",
+    "cost": 400,
+    "requiredTech": "Combustion",
+    "requiredResource": "Oil",
+    "uniques": ["[+4 Production] [in this city]", "Consumes [1] [Oil]"]
+  },
+  {
+    "name": "Petroleum Research Center",
+    "cost": 420,
+    "requiredTech": "Advanced Ballistics",
+    "requiredResource": "Oil",
+    "uniques": ["[+5 Science] [in this city]"]
+  },
+  {
+    "name": "Synthetic Fuel Plant",
+    "cost": 440,
+    "requiredTech": "Nanotechnology",
+    "requiredResource": "Oil",
+    "uniques": ["[+2 Production] [in this city]", "[+2 Gold] [in this city]"]
+  },
+  {
+    "name": "World Oil Alliance HQ",
+    "cost": 480,
+    "requiredTech": "Future Tech",
+    "requiredResource": "Oil",
+    "uniques": ["[+10% Gold] [in this city]", "[+3 Happiness] [in this city]"]
+  },
+
+//others
+{
+  "name": "Horse Breeding Camp",
+  "cost": 50,
+  "requiredTech": "Animal Husbandry",
+  "uniques": ["Provides [1] [Horses]"]
+},
+{
+  "name": "Iron Smelter",
+  "cost": 80,
+  "requiredTech": "Iron Working",
+  "uniques": ["Provides [1] [Iron]"]
+},
+{
+  "name": "Coal Excavation Site",
+  "cost": 120,
+  "requiredTech": "Industrialization",
+  "uniques": ["Provides [1] [Coal]"]
+},
+{
+  "name": "Oil Extraction Well",
+  "cost": 150,
+  "requiredTech": "Biology",
+  "uniques": ["Provides [1] [Oil]"]
+},
+{
+  "name": "Uranium Refinery",
+  "cost": 220,
+  "requiredTech": "Atomic Theory",
+  "uniques": ["Provides [1] [Uranium]"]
+},
+{
+  "name": "Aluminum Processing Plant",
+  "cost": 180,
+  "requiredTech": "Plastics",
+  "uniques": ["Provides [1] [Aluminum]"]
+},
+{
+  "name": "Advanced Resource Factory",
+  "cost": 250,
+  "requiredTech": "Robotics",
+  "uniques": ["Provides [2] [Coal]", "Provides [2] [Oil]", "Provides [1] [Uranium]"]
+},
+{
+  "name": "Synthetic Horse Lab",
+  "cost": 240,
+  "requiredTech": "Genetics",
+  "uniques": ["Provides [2] [Horses]", "Provides [1] [Iron]"]
+},
+{
+  "name": "Nanotech Mining Center",
+  "cost": 300,
+  "requiredTech": "Nanotechnology",
+  "uniques": ["Provides [3] [Iron]", "Provides [3] [Aluminum]"]
+},
+{
+  "name": "Fusion Resource Complex",
+  "cost": 350,
+  "requiredTech": "Nuclear Fusion",
+  "uniques": ["Provides [2] [Uranium]", "Provides [3] [Oil]", "Provides [1] [Coal]"]
+},
+{
+  "name": "Resource Replicator",
+  "cost": 400,
+  "requiredTech": "Future Tech",
+  "uniques": ["Provides [3] [Horses]", "Provides [3] [Iron]", "Provides [3] [Coal]", "Provides [3] [Oil]", "Provides [3] [Uranium]", "Provides [3] [Aluminum]"]
+}
 ]
