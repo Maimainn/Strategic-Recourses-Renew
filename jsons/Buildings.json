@@ -1,10 +1,9 @@
 [
-    // Horses
     {
         "name": "Horse Racing",
         "hurryCostModifier": 25,
         "uniques": [
-            "[+1 Gold] per [2] [Citizens]",
+            "[+1 Gold] per 2 population [in this city]",
             "[+15]% [Gold] [in this city]",
             "Consumes [1] [Horses]"
         ],
@@ -24,7 +23,7 @@
         "hurryCostModifier": 25,
         "happiness": 2,
         "uniques": [
-            "[+1 Happiness] per [3] [Citizens]",
+            "[+1 Happiness] per 3 population [in this city]",
             "[+5]% [Gold] [in this city]",
             "Consumes [1] [Horses]"
         ],
@@ -35,7 +34,7 @@
         "hurryCostModifier": 25,
         "happiness": 2,
         "uniques": [
-            "[+1 Food] per [3] [Citizens]",
+            "[+1 Food] per 3 population [in this city]",
             "[+5]% [Food] [in this city]",
             "Consumes [1] [Horses]",
             "[+1 Food, +1 Production, +1 Gold] from [Farm] tiles [in this city]"
@@ -47,7 +46,7 @@
         "hurryCostModifier": 25,
         "gold": 2,
         "uniques": [
-            "[+1 Food] per [3] [Citizens]",
+            "[+1 Food] per 3 population [in this city]",
             "Consumes [1] [Horses]",
             "[+2 Food] from [Pasture] tiles [in this city]"
         ],
@@ -86,7 +85,7 @@
         "name": "Horse Meat Factory",
         "hurryCostModifier": 25,
         "uniques": [
-            "[+1 Food] per [2] [Citizens]",
+            "[+1 Food] per 2 population [in this city]",
             "[+15]% [Food] [in this city]",
             "Consumes [1] [Horses]"
         ],
@@ -96,20 +95,18 @@
         "name": "Horse Genetic Testing",
         "hurryCostModifier": 25,
         "uniques": [
-            "[+1 Food] per [4] [Citizens]",
+            "[+1 Food] per 4 population [in this city]",
             "[+15]% [Science] [in this city]",
             "Provides [10] [Horses]"
         ],
         "requiredTech": "Refrigeration"
     },
-
-    // Iron
     {
         "name": "Make Tools",
         "hurryCostModifier": 25,
         "production": 1,
         "uniques": [
-            "[+1 Science, +2 Production] per [3] [Citizens]",
+            "[+1 Science, +2 Production] per 3 population [in this city]",
             "[+3]% [Science] [in this city]",
             "Consumes [1] [Iron]"
         ],
@@ -144,8 +141,6 @@
         ],
         "requiredTech": "Metallurgy"
     },
-
-    // Other
     {
         "name": "Resource Generator",
         "hurryCostModifier": 100,
