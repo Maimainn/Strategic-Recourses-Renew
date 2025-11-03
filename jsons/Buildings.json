@@ -5,6 +5,7 @@
     "cost": 120,
     "requiredBuilding": "Stable",
     "requiredResource": "Horses",
+    "requiredTech": "Horseback Riding",
     "uniques": ["[+1 Gold] from every specialist [in this city]"]
   },
   {
@@ -12,6 +13,7 @@
     "cost": 100,
     "requiredBuilding": "Stable",
     "requiredResource": "Horses",
+    "requiredTech": "Horseback Riding",
     "uniques": ["[+1 Happiness] [in this city]"]
   },
   {
@@ -19,6 +21,7 @@
     "cost": 120,
     "requiredBuilding": "Stable",
     "requiredResource": "Horses",
+    "requiredTech": "Horseback Riding",
     "uniques": ["[+1 Food] from every specialist [in this city]"]
   },
   {
@@ -26,6 +29,7 @@
     "cost": 150,
     "requiredBuilding": "Stable",
     "requiredResource": "Horses",
+    "requiredTech": "Horseback Riding",
     "uniques": ["[+1 Food] from every [Pasture]"]
   },
   {
@@ -33,6 +37,7 @@
     "cost": 200,
     "requiredBuilding": "Stable",
     "requiredResource": "Horses",
+    "requiredTech": "Horseback Riding",
     "uniques": ["[+1 Food] [in this city]"]
   },
   {
@@ -40,6 +45,7 @@
     "cost": 250,
     "requiredBuilding": "Stable",
     "requiredResource": "Horses",
+    "requiredTech": "Scientific Theory",
     "uniques": ["[+2 Science] from every specialist [in this city]"]
   },
   {
@@ -47,7 +53,7 @@
     "cost": 300,
     "requiredBuilding": "Stable",
     "requiredResource": "Horses",
-    "requiredTech": "Horseback Riding",
+    "requiredTech": "Genetics",
     "uniques": ["[+1 Faith] [in this city]", "Only available (when religion is enabled)"]
   },
 
@@ -57,6 +63,7 @@
     "cost": 160,
     "requiredBuilding": "Forge",
     "requiredResource": "Iron",
+    "requiredTech": "Iron Working",
     "uniques": ["[+1 Science] [in this city]", "[+2 Production] [in this city]"]
   },
   {
@@ -64,6 +71,7 @@
     "cost": 200,
     "requiredBuilding": "Forge",
     "requiredResource": "Iron",
+    "requiredTech": "Iron Working",
     "uniques": ["[+2 Production] from every [Mine]"]
   },
   {
@@ -71,6 +79,7 @@
     "cost": 250,
     "requiredBuilding": "Forge",
     "requiredResource": "Iron",
+    "requiredTech": "Steel",
     "uniques": ["[+1 Science] from every [Mine]"]
   },
   {
@@ -78,6 +87,7 @@
     "cost": 300,
     "requiredBuilding": "Forge",
     "requiredResource": "Iron",
+    "requiredTech": "Steel",
     "uniques": ["[+2 Production] [in this city]"]
   },
   {
@@ -85,6 +95,7 @@
     "cost": 350,
     "requiredBuilding": "Forge",
     "requiredResource": "Iron",
+    "requiredTech": "Steel",
     "uniques": ["[+2 Science] [in this city]"]
   },
   {
@@ -92,6 +103,7 @@
     "cost": 400,
     "requiredBuilding": "Forge",
     "requiredResource": "Iron",
+    "requiredTech": "Steel",
     "uniques": ["[+1 Gold] from every specialist [in this city]"]
   },
   {
@@ -99,6 +111,7 @@
     "cost": 420,
     "requiredBuilding": "Forge",
     "requiredResource": "Iron",
+    "requiredTech": "Iron Working",
     "uniques": ["[+2 Faith] [in this city]", "Only available (when religion is enabled)"]
   },
 
@@ -108,6 +121,7 @@
     "cost": 250,
     "requiredBuilding": "Factory",
     "requiredResource": "Coal",
+    "requiredTech": "Industrialization",
     "uniques": ["[+2 Production] [in this city]"]
   },
   {
@@ -115,6 +129,7 @@
     "cost": 300,
     "requiredBuilding": "Factory",
     "requiredResource": "Coal",
+    "requiredTech": "Industrialization",
     "uniques": ["[+3 Production] [in this city]", "[+1 Gold] [in this city]"]
   },
   {
@@ -122,6 +137,7 @@
     "cost": 350,
     "requiredBuilding": "Factory",
     "requiredResource": "Coal",
+    "requiredTech": "Steam Power",
     "uniques": ["[+2 Science] from every [Mine]"]
   },
   {
@@ -129,6 +145,7 @@
     "cost": 400,
     "requiredBuilding": "Factory",
     "requiredResource": "Coal",
+    "requiredTech": "Steam Power",
     "uniques": ["[+2 Gold] [in this city]"]
   },
   {
@@ -136,6 +153,7 @@
     "cost": 450,
     "requiredBuilding": "Factory",
     "requiredResource": "Coal",
+    "requiredTech": "Steam Power",
     "uniques": ["[+3 Science] [in this city]"]
   },
   {
@@ -143,6 +161,7 @@
     "cost": 500,
     "requiredBuilding": "Factory",
     "requiredResource": "Coal",
+    "requiredTech": "Industrialization",
     "uniques": ["[+1 Happiness] [in this city]"]
   },
   {
@@ -150,6 +169,7 @@
     "cost": 520,
     "requiredBuilding": "Factory",
     "requiredResource": "Coal",
+    "requiredTech": "Industrialization",
     "uniques": ["[+2 Faith] [in this city]", "Only available (when religion is enabled)"]
   },
 
@@ -159,6 +179,7 @@
     "cost": 300,
     "requiredBuilding": "Factory",
     "requiredResource": "Aluminum",
+    "requiredTech": "Electricity",
     "uniques": ["[+2 Production] from every [Mine]"]
   },
   {
@@ -166,6 +187,7 @@
     "cost": 350,
     "requiredBuilding": "Factory",
     "requiredResource": "Aluminum",
+    "requiredTech": "Flight",
     "uniques": ["[+1 Science] from every specialist [in this city]"]
   },
   {
@@ -173,6 +195,7 @@
     "cost": 400,
     "requiredBuilding": "Factory",
     "requiredResource": "Aluminum",
+    "requiredTech": "Flight",
     "uniques": ["[+2 Production] [in this city]"]
   },
   {
@@ -180,6 +203,7 @@
     "cost": 420,
     "requiredBuilding": "Factory",
     "requiredResource": "Aluminum",
+    "requiredTech": "Electricity",
     "uniques": ["[+2 Gold] [in this city]"]
   },
   {
@@ -187,6 +211,7 @@
     "cost": 460,
     "requiredBuilding": "Factory",
     "requiredResource": "Aluminum",
+    "requiredTech": "Electricity",
     "uniques": ["[+2 Science] [in this city]"]
   },
   {
@@ -194,6 +219,7 @@
     "cost": 500,
     "requiredBuilding": "Factory",
     "requiredResource": "Aluminum",
+    "requiredTech": "Flight",
     "uniques": ["[+1 Happiness] [in this city]"]
   },
   {
@@ -201,6 +227,7 @@
     "cost": 520,
     "requiredBuilding": "Factory",
     "requiredResource": "Aluminum",
+    "requiredTech": "Electricity",
     "uniques": ["[+2 Faith] [in this city]", "Only available (when religion is enabled)"]
   },
 
@@ -210,6 +237,7 @@
     "cost": 300,
     "requiredBuilding": "Factory",
     "requiredResource": "Oil",
+    "requiredTech": "Combustion",
     "uniques": ["[+3 Production] [in this city]"]
   },
   {
@@ -217,6 +245,7 @@
     "cost": 360,
     "requiredBuilding": "Factory",
     "requiredResource": "Oil",
+    "requiredTech": "Combustion",
     "uniques": ["[+2 Science] [in this city]"]
   },
   {
@@ -224,6 +253,7 @@
     "cost": 380,
     "requiredBuilding": "Factory",
     "requiredResource": "Oil",
+    "requiredTech": "Combustion",
     "uniques": ["[+1 Happiness] [in this city]"]
   },
   {
@@ -231,6 +261,7 @@
     "cost": 400,
     "requiredBuilding": "Factory",
     "requiredResource": "Oil",
+    "requiredTech": "Combustion",
     "uniques": ["[+3 Gold] [in this city]"]
   },
   {
@@ -238,6 +269,7 @@
     "cost": 450,
     "requiredBuilding": "Factory",
     "requiredResource": "Oil",
+    "requiredTech": "Combustion",
     "uniques": ["[+2 Science] from every specialist [in this city]"]
   },
   {
@@ -245,6 +277,7 @@
     "cost": 480,
     "requiredBuilding": "Factory",
     "requiredResource": "Oil",
+    "requiredTech": "Combustion",
     "uniques": ["[+3 Production] [in this city]"]
   },
   {
@@ -252,6 +285,7 @@
     "cost": 500,
     "requiredBuilding": "Factory",
     "requiredResource": "Oil",
+    "requiredTech": "Combustion",
     "uniques": ["[+2 Faith] [in this city]", "Only available (when religion is enabled)"]
   },
 
@@ -261,6 +295,7 @@
     "cost": 400,
     "requiredBuilding": "Nuclear Plant",
     "requiredResource": "Uranium",
+    "requiredTech": "Atomic Theory",
     "uniques": ["[+3 Science] [in this city]"]
   },
   {
@@ -268,6 +303,7 @@
     "cost": 450,
     "requiredBuilding": "Nuclear Plant",
     "requiredResource": "Uranium",
+    "requiredTech": "Atomic Theory",
     "uniques": ["[+3 Production] [in this city]"]
   },
   {
@@ -275,13 +311,15 @@
     "cost": 480,
     "requiredBuilding": "Nuclear Plant",
     "requiredResource": "Uranium",
-    "uniques": ["[+3 Production] [in this city]"]
+    "requiredTech": "Atomic Theory",
+    "uniques": ["[+2 Production] [in this city]"]
   },
   {
     "name": "Fusion Generator",
     "cost": 520,
     "requiredBuilding": "Nuclear Plant",
     "requiredResource": "Uranium",
+    "requiredTech": "Nuclear Fission",
     "uniques": ["[+4 Science] [in this city]"]
   },
   {
@@ -289,6 +327,7 @@
     "cost": 560,
     "requiredBuilding": "Nuclear Plant",
     "requiredResource": "Uranium",
+    "requiredTech": "Nuclear Fission",
     "uniques": ["[+2 Science] from every specialist [in this city]"]
   },
   {
@@ -296,6 +335,7 @@
     "cost": 580,
     "requiredBuilding": "Nuclear Plant",
     "requiredResource": "Uranium",
+    "requiredTech": "Nuclear Fission",
     "uniques": ["[+3 Gold] [in this city]"]
   },
   {
@@ -303,85 +343,86 @@
     "cost": 600,
     "requiredBuilding": "Nuclear Plant",
     "requiredResource": "Uranium",
+    "requiredTech": "Nuclear Fission",
     "uniques": ["[+3 Faith] [in this city]", "Only available (when religion is enabled)"]
   },
 
-  // OTHERS (Resource-Providing Buildings)
+  // RESOURCE-PROVIDING BUILDINGS
   {
     "name": "Coal Refinery",
     "cost": 220,
-    "requiredTech": "Steam Power",
+    "requiredTech": "Industrialization",
     "requiredResource": "Coal",
-    "unique": ["Provides +1 Coal [in this city]"]
+    "uniques": ["Provides +1 Coal [in this city]"]
   },
   {
     "name": "Coal Pressure Plant",
     "cost": 280,
-    "requiredTech": "Industrialization",
+    "requiredTech": "Steam Power",
     "requiredResource": "Coal",
-    "unique": ["Provides +2 Coal [in this city]"]
+    "uniques": ["Provides +2 Coal [in this city]"]
   },
   {
     "name": "Oil Extraction Well",
     "cost": 250,
     "requiredTech": "Combustion",
     "requiredResource": "Oil",
-    "unique": ["Provides +1 Oil [in this city]"]
+    "uniques": ["Provides +1 Oil [in this city]"]
   },
   {
     "name": "Oil Processing Facility",
     "cost": 320,
     "requiredTech": "Combustion",
     "requiredResource": "Oil",
-    "unique": ["Provides +2 Oil [in this city]"]
+    "uniques": ["Provides +2 Oil [in this city]"]
   },
   {
     "name": "Aluminum Refinery",
     "cost": 300,
     "requiredTech": "Electricity",
     "requiredResource": "Aluminum",
-    "unique": ["Provides +1 Aluminum [in this city]"]
+    "uniques": ["Provides +1 Aluminum [in this city]"]
   },
   {
     "name": "Advanced Smelting Plant",
     "cost": 380,
     "requiredTech": "Electricity",
     "requiredResource": "Aluminum",
-    "unique": ["Provides +2 Aluminum [in this city]"]
+    "uniques": ["Provides +2 Aluminum [in this city]"]
   },
   {
     "name": "Uranium Extraction Lab",
     "cost": 400,
     "requiredTech": "Atomic Theory",
     "requiredResource": "Uranium",
-    "unique": ["Provides +1 Uranium [in this city]"]
+    "uniques": ["Provides +1 Uranium [in this city]"]
   },
   {
     "name": "Nuclear Refinement Center",
     "cost": 480,
     "requiredTech": "Atomic Theory",
     "requiredResource": "Uranium",
-    "unique": ["Provides +2 Uranium [in this city]"]
+    "uniques": ["Provides +2 Uranium [in this city]"]
   },
   {
     "name": "Horse Ranch",
     "cost": 180,
     "requiredTech": "Horseback Riding",
     "requiredResource": "Horses",
-    "unique": ["Provides +1 Horses [in this city]"]
+    "uniques": ["Provides +1 Horses [in this city]"]
   },
   {
     "name": "Iron Mining Expansion",
     "cost": 200,
     "requiredTech": "Iron Working",
     "requiredResource": "Iron",
-    "unique": ["Provides +1 Iron [in this city]"]
+    "uniques": ["Provides +1 Iron [in this city]"]
   },
   {
     "name": "Steel Reclamation Plant",
     "cost": 260,
     "requiredTech": "Steel",
     "requiredResource": "Iron",
-    "unique": ["Provides +2 Iron [in this city]"]
+    "uniques": ["Provides +2 Iron [in this city]"]
   }
 ]
