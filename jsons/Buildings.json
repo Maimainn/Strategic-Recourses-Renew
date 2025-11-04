@@ -823,5 +823,144 @@
       "[+15]% [Food] from Trade Routes",
       "Gain a free [Aqueduct] [in this city]"
     ]
+  },
+
+ //National Wonders
+  {
+    "name": "Ironworks Foundry",
+    "isNationalWonder": true,
+    "cost": 150,
+    "production": 2,
+    "requiredTech": "Iron Working",
+    "uniques": [
+      "Provides [3] [Iron]",
+      "[+10]% [Production] from every [Mine]",
+      "Free [Great Engineer] appears"
+    ]
+  },
+  {
+    "name": "Horse Breeding Paddock",
+    "isNationalWonder": true,
+    "cost": 140,
+    "food": 1,
+    "requiredTech": "Animal Husbandry",
+    "uniques": [
+      "Provides [3] [Horses]",
+      "[+10]% [Gold] from Trade Routes",
+      "Free [Great General] appears"
+    ]
+  },
+  {
+    "name": "Coal Smelter",
+    "isNationalWonder": true,
+    "cost": 170,
+    "production": 3,
+    "requiredTech": "Industrialization",
+    "uniques": [
+      "Provides [3] [Coal]",
+      "[+12]% [Production] from every [Mine]"
+    ]
+  },
+  {
+    "name": "Oil Refinery",
+    "isNationalWonder": true,
+    "cost": 200,
+    "production": 2,
+    "gold": 2,
+    "requiredTech": "Biology",
+    "uniques": [
+      "Provides [3] [Oil]",
+      "[+10]% [Gold] from Trade Routes",
+      "Free [Great Engineer] appears"
+    ]
+  },
+  {
+    "name": "Aluminum Foundry",
+    "isNationalWonder": true,
+    "cost": 220,
+    "production": 3,
+    "requiredTech": "Electricity",
+    "uniques": [
+      "Provides [3] [Aluminum]",
+      "[+8]% [Production] from every [Mine]"
+    ]
+  },
+  {
+    "name": "Uranium Enrichment Facility",
+    "isNationalWonder": true,
+    "cost": 250,
+    "production": 2,
+    "requiredTech": "Atomic Theory",
+    "uniques": [
+      "Provides [3] [Uranium]",
+      "[15]% Production when constructing [Military] units [in this city]"
+    ]
+  },
+  {
+    "name": "Strategic Stockpile",
+    "isNationalWonder": true,
+    "cost": 180,
+    "gold": 2,
+    "requiredTech": "Economics",
+    "uniques": [
+      "Provides [3] [Iron]",
+      "Provides [3] [Coal]",
+      "Provides [3] [Horses]",
+      "Provides [3] [Oil]",
+      "Provides [3] [Aluminum]",
+      "[+10]% [Gold] from Trade Routes",
+      "[+10]% [Production] from Trade Routes"
+    ]
+  },
+  {
+    "name": "Resource Depot",
+    "isNationalWonder": true,
+    "cost": 160,
+    "production": 1,
+    "requiredTech": "Metal Casting",
+    "uniques": [
+      "Provides [3] [Coal]",
+      "Provides [3] [Iron]",
+      "[+10]% [Production] from every [Mine]"
+    ]
+  },
+  {
+    "name": "Foundry of Innovation",
+    "isNationalWonder": true,
+    "cost": 180,
+    "production": 2,
+    "requiredTech": "Scientific Theory",
+    "uniques": [
+      "Provides [3] [Aluminum]",
+      "[+10]% [Science] from Trade Routes",
+      "Free [Great Scientist] appears"
+    ]
+  },
+  {
+    "name": "Military Supplies Workshop",
+    "isNationalWonder": true,
+    "cost": 200,
+    "production": 3,
+    "requiredTech": "Metal Casting",
+    "uniques": [
+      "Provides [3] [Iron]",
+      "[12]% Production when constructing [Military] units [in this city]"
+    ]
+  },
+  {
+    "name": "Strategic Resource Exchange",
+    "isNationalWonder": true,
+    "cost": 190,
+    "gold": 3,
+    "requiredTech": "Economics",
+    "uniques": [
+      "Provides [3] [Iron]",
+      "Provides [3] [Coal]",
+      "Provides [3] [Horses]",
+      "Provides [3] [Oil]",
+      "Provides [3] [Aluminum]",
+      "[+10]% [Gold] from Trade Routes",
+      "[+10]% [Production] from Trade Routes"
+    ]
   }
 ]
