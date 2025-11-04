@@ -735,9 +735,10 @@
   {
     "name": "Lalibela Rock-Hewn Churches",
     "isWonder": true,
-    "cost": 400,
-    "culture": 2,
-    "faith": 3,
+    "cost": 320,
+    "culture": 3,
+    "faith": 4,
+    "requiredTech": "Theology",
     "uniques": [
       "[+2 Culture] from every [Shrine]",
       "[+1 Culture] from every [Temple]",
@@ -749,11 +750,12 @@
   {
     "name": "Chand Baori Stepwell",
     "isWonder": true,
-    "cost": 380,
+    "cost": 190,
     "gold": 3,
+    "requiredTech": "Masonry",
     "uniques": [
       "[+2 Gold] from every [Aqueduct]",
-      "[-25]% maintenance cost for [all] buildings [in this city]",
+      "[-30]% maintenance cost for [all] buildings [in this city]",
       "[+10]% [Production] from Trade Routes",
       "Gain a free [Aqueduct] [in this city]"
     ]
@@ -763,8 +765,9 @@
     "isWonder": true,
     "cost": 420,
     "faith": 3,
+    "requiredTech": "Mathematics",
     "uniques": [
-      "[+10]% [Gold] from Trade Routes",
+      "[+15]% [Gold] from Trade Routes",
       "[+2 Faith] from every [Market]",
       "Free [Great Merchant] appears"
     ]
@@ -775,10 +778,11 @@
     "cost": 460,
     "cityStrength": 25,
     "cityHealth": 25,
+    "requiredTech": "Construction",
     "uniques": [
       "[+25]% City Strength from defensive buildings",
       "All healing effects doubled",
-      "[+10]% [Production] from Trade Routes",
+      "[+20]% [Production] from Trade Routes",
       "Free [Great General] appears"
     ]
   },
@@ -787,9 +791,10 @@
     "isWonder": true,
     "cost": 420,
     "gold": 4,
+    "requiredTech": "Engineering",
     "uniques": [
       "[+15]% [Gold] from Trade Routes",
-      "[-15]% maintenance cost for [all] buildings [in this city]",
+      "[-20]% maintenance cost for [all] buildings [in this city]",
       "Free [Great Engineer] appears"
     ]
   },
@@ -797,8 +802,9 @@
     "name": "Potala Palace",
     "isWonder": true,
     "cost": 480,
-    "culture": 4,
+    "culture": 6,
     "faith": 2,
+    "requiredTech": "Civil Service",
     "uniques": [
       "Free [Great Scientist] appears",
       "[+15]% [Culture] from Trade Routes",
@@ -808,9 +814,10 @@
   {
     "name": "Pontcysyllte Aqueduct",
     "isWonder": true,
-    "cost": 440,
-    "food": 2,
+    "cost": 450,
+    "food": 7,
     "production": 2,
+    "requiredTech": "Physics",
     "uniques": [
       "[+15]% [Production] from Trade Routes",
       "[+15]% [Food] from Trade Routes",
