@@ -1,6 +1,6 @@
 [
 
-// 🐎 HORSES BUILDINGS
+  //HORSES BUILDINGS
   {
     "name": "Horse Ranch",
     "cost": 120,
@@ -117,7 +117,7 @@
     ]
   },
 
-// ⛏️ IRON BUILDINGS
+  //IRON BUILDINGS
   {
     "name": "Iron Mining Expansion",
     "cost": 150,
