@@ -743,7 +743,8 @@
       "[+2 Culture] from every [Shrine]",
       "[+1 Culture] from every [Temple]",
       "Free [Great Prophet] appears",
-      "[+10]% [Culture] from Trade Routes",
+      "[+17]% [Culture] from Trade Routes",
+      "[+13]% [Faith] from Trade Routes",
       "Gain a free [Temple] [in all cities]"
     ]
   },
@@ -756,7 +757,7 @@
     "uniques": [
       "[+2 Gold] from every [Aqueduct]",
       "[-30]% maintenance cost for [all] buildings [in this city]",
-      "[+10]% [Production] from Trade Routes",
+      "[+17]% [Production] from Trade Routes",
       "Gain a free [Aqueduct] [in this city]"
     ]
   },
@@ -767,8 +768,8 @@
     "faith": 3,
     "requiredTech": "Mathematics",
     "uniques": [
-      "[+15]% [Gold] from Trade Routes",
-      "[+2 Faith] from every [Market]",
+      "[+20]% [Gold] from Trade Routes",
+      "[+3 Faith] from every [Market]",
       "Free [Great Merchant] appears"
     ]
   },
@@ -777,7 +778,7 @@
     "isWonder": true,
     "cost": 460,
     "cityStrength": 25,
-    "cityHealth": 25,
+    "cityHealth": 50,
     "requiredTech": "Construction",
     "uniques": [
       "[+25]% City Strength from defensive buildings",
@@ -790,7 +791,7 @@
     "name": "Stari Most Bridge",
     "isWonder": true,
     "cost": 420,
-    "gold": 4,
+    "gold": 7,
     "requiredTech": "Engineering",
     "uniques": [
       "[+15]% [Gold] from Trade Routes",
