@@ -6,7 +6,7 @@
     "requiredResource": "Oil",
     "maintenance": 2,
     "uniques": [
-      "[+1 Production] from [Well] tiles [in this city]",
+      "[+1 Production] from [Oil well] tiles [in this city]",
       "[+1 Gold] from each Trade Route"
     ]
   },
@@ -18,7 +18,7 @@
     "maintenance": 3,
     "uniques": [
       "[+2 Gold] [in this city]",
-      "[+1 Science] from [Well] tiles [in this city]"
+      "[+1 Science] from [Oil well] tiles [in this city]"
     ]
   },
   {
@@ -39,7 +39,7 @@
     "requiredResource": "Oil",
     "maintenance": 4,
     "uniques": [
-      "[+10]% [Production] [in this city]",
+      "[10]% [Production] [in this city]",
       "[+1 Gold] [in this city]"
     ]
   },
@@ -95,7 +95,7 @@
     "maintenance": 4,
     "uniques": [
       "[+1 Science] per [4] population [in this city]",
-      "[+1 Gold] from [Well] tiles [in this city]"
+      "[+1 Gold] from [Oil well] tiles [in this city]"
     ]
   },
   {
