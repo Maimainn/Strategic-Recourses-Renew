@@ -26,7 +26,7 @@
     "requiredTech": "Horseback Riding",
     "requiredResource": "Horses",
     "uniques": [
-      "[+1 Food] from every [Citizen] [in this city]"
+      "[+1 Food] per [3] population [in this city]"
     ]
   },
   {
@@ -84,7 +84,7 @@
     "requiredTech": "Chivalry",
     "requiredResource": "Horses",
     "uniques": [
-      "[+10]% Food carried over after population increase",
+      "[10]% Food is carried over after population increases [in this city]",
       "[+1 Production] from [Pasture] tiles [in this city]"
     ]
   },
@@ -107,5 +107,5 @@
       "New [Mounted] units start with [15] XP [in this city]",
       "[+1 Culture] from each Trade Route"
     ]
-  },
+  }
 ]
