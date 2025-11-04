@@ -1,4 +1,5 @@
-{
+[
+ {
     "name": "Coal Mill",
     "cost": 150,
     "requiredTech": "Industrialization",
