@@ -38,7 +38,7 @@
     "requiredResource": "Horses",
     "uniques": [
       "[+1 Production] [in this city]",
-      "[+1 Gold] from each Trade Route [in this city]"
+      "[+1 Gold] from each Trade Route"
     ]
   },
   {
@@ -58,7 +58,7 @@
     "requiredTech": "Military Science",
     "requiredResource": "Horses",
     "uniques": [
-      "[10%] Production when constructing [Mounted] units [in this city]",
+      "[10]% Production when constructing [Mounted] units [in this city]",
       "New [Mounted] units start with [10] XP [in this city]"
     ]
   },
@@ -142,7 +142,7 @@
     "requiredTech": "Steel",
     "requiredResource": "Iron",
     "uniques": [
-      "[10%] Production when constructing [Land] units [in this city]",
+      "[10]% Production when constructing [Land] units [in this city]",
       "New [Melee] units start with [15] XP [in this city]"
     ]
   },
