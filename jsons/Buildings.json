@@ -1,64 +1,31 @@
 [
   {
-    "name": "Oil Extraction Well",
-    "cost": 220,
-    "requiredTech": "Biology",
-    "requiredResource": "Oil",
+    "name": "Aluminum Mining Site",
+    "cost": 250,
+    "requiredTech": "Electricity",
+    "requiredResource": "Aluminum",
     "maintenance": 2,
     "uniques": [
-      "[+1 Production] from [Oil well] tiles [in this city]",
-      "[+1 Gold] from each Trade Route"
+      "[+1 Production] from [Mine] tiles [in this city]",
+      "[+1 Science] [in this city]"
     ]
   },
   {
-    "name": "Oil Refinement Center",
-    "cost": 260,
-    "requiredTech": "Combustion",
-    "requiredResource": "Oil",
-    "maintenance": 3,
-    "uniques": [
-      "[+2 Gold] [in this city]",
-      "[+1 Science] from [Oil well] tiles [in this city]"
-    ]
-  },
-  {
-    "name": "Oil Trade Depot",
+    "name": "Aluminum Refinery",
     "cost": 290,
-    "requiredTech": "Combustion",
-    "requiredResource": "Oil",
+    "requiredTech": "Replaceable Parts",
+    "requiredResource": "Aluminum",
     "maintenance": 3,
     "uniques": [
-      "[+1 Gold] per [3] population [in this city]",
-      "[+1 Science] from each Trade Route"
-    ]
-  },
-  {
-    "name": "Petroleum Processing Plant",
-    "cost": 320,
-    "requiredTech": "Plastics",
-    "requiredResource": "Oil",
-    "maintenance": 4,
-    "uniques": [
-      "[10]% [Production] [in this city]",
+      "[+1 Production] per [4] population [in this city]",
       "[+1 Gold] [in this city]"
     ]
   },
   {
-    "name": "Oil Pressure Facility",
-    "cost": 350,
-    "requiredTech": "Plastics",
-    "requiredResource": "Oil",
-    "maintenance": 3,
-    "uniques": [
-      "[+2 Science] [in this city]",
-      "[+1 Gold] per [5] population [in this city]"
-    ]
-  },
-  {
-    "name": "Oil Faith Shrine",
-    "cost": 380,
-    "requiredTech": "Plastics",
-    "requiredResource": "Oil",
+    "name": "Aluminum Faith Generator",
+    "cost": 320,
+    "requiredTech": "Electricity",
+    "requiredResource": "Aluminum",
     "maintenance": 2,
     "uniques": [
       "[+2 Faith] [in this city]",
@@ -66,58 +33,91 @@
     ]
   },
   {
-    "name": "Petrochemical Research Lab",
-    "cost": 420,
-    "requiredTech": "Rocketry",
-    "requiredResource": "Oil",
-    "maintenance": 4,
+    "name": "Lightweight Alloy Plant",
+    "cost": 350,
+    "requiredTech": "Plastics",
+    "requiredResource": "Aluminum",
+    "maintenance": 3,
     "uniques": [
-      "[+2 Science] per [5] population [in this city]",
+      "[+10]% [Production] [in this city]",
+      "[+1 Science] from [Mine] tiles [in this city]"
+    ]
+  },
+  {
+    "name": "Aeronautic Engineering Hub",
+    "cost": 380,
+    "requiredTech": "Flight",
+    "requiredResource": "Aluminum",
+    "maintenance": 3,
+    "uniques": [
+      "[+2 Science] per [4] population [in this city]",
       "[+1 Gold] [in this city]"
     ]
   },
   {
-    "name": "Aviation Fuel Plant",
-    "cost": 450,
-    "requiredTech": "Flight",
-    "requiredResource": "Oil",
-    "maintenance": 3,
-    "uniques": [
-      "[10]% [Production] [in this city]",
-      "[+1 Gold] from each Trade Route"
-    ]
-  },
-  {
-    "name": "Oil Energy Refinery",
-    "cost": 480,
+    "name": "Aluminum Pressure Smelter",
+    "cost": 420,
     "requiredTech": "Plastics",
-    "requiredResource": "Oil",
-    "maintenance": 4,
-    "uniques": [
-      "[+1 Science] per [4] population [in this city]",
-      "[+1 Gold] from [Oil well] tiles [in this city]"
-    ]
-  },
-  {
-    "name": "Oil Industrial Park",
-    "cost": 520,
-    "requiredTech": "Rocketry",
-    "requiredResource": "Oil",
+    "requiredResource": "Aluminum",
     "maintenance": 4,
     "uniques": [
       "[15]% [Production] [in this city]",
-      "[+1 Happiness] [in this city]"
+      "[+1 Science] from each Trade Route"
     ]
   },
   {
-    "name": "National Petroleum Authority",
-    "cost": 550,
-    "requiredTech": "Plastics",
-    "requiredResource": "Oil",
+    "name": "Aluminum Trade Bureau",
+    "cost": 450,
+    "requiredTech": "Electronics",
+    "requiredResource": "Aluminum",
+    "maintenance": 3,
+    "uniques": [
+      "[+1 Gold] from each Trade Route",
+      "[+1 Science] [in this city]"
+    ]
+  },
+  {
+    "name": "Industrial Alloy Foundry",
+    "cost": 480,
+    "requiredTech": "Computers",
+    "requiredResource": "Aluminum",
+    "maintenance": 4,
+    "uniques": [
+      "[+1 Production] per [3] population [in this city]",
+      "[+1 Science] [in this city]"
+    ]
+  },
+  {
+    "name": "High-Tech Manufacturing Lab",
+    "cost": 510,
+    "requiredTech": "Robotics",
+    "requiredResource": "Aluminum",
+    "maintenance": 4,
+    "uniques": [
+      "[10]% [Production] [in this city]",
+      "[+2 Science] [in this city]"
+    ]
+  },
+  {
+    "name": "Aluminum Industrial District",
+    "cost": 540,
+    "requiredTech": "Robotics",
+    "requiredResource": "Aluminum",
+    "maintenance": 4,
+    "uniques": [
+      "[+1 Science] per [5] population [in this city]",
+      "[+1 Gold] [in this city]"
+    ]
+  },
+  {
+    "name": "National Aluminum Authority",
+    "cost": 580,
+    "requiredTech": "Nanotechnology",
+    "requiredResource": "Aluminum",
     "maintenance": 5,
     "uniques": [
-      "[+2 Gold] from each Trade Route",
-      "[+1 Science] [in this city]"
+      "[15]% [Production] [in this city]",
+      "[+1 Happiness] [in this city]"
     ]
   }
 ]
