@@ -1,123 +1,136 @@
 [
   {
-    "name": "Uranium Extraction Lab",
-    "cost": 300,
-    "requiredTech": "Atomic Theory",
-    "requiredResource": "Uranium",
+    "name": "Uranium Refinery",
+    "cost": 480,
     "maintenance": 3,
-    "uniques": [
-      "[+1 Science] [in this city]",
-      "[+1 Production] from each Trade Route"
-    ]
-  },
-  {
-    "name": "Nuclear Refinement Center",
-    "cost": 340,
     "requiredTech": "Atomic Theory",
     "requiredResource": "Uranium",
-    "maintenance": 4,
     "uniques": [
-      "[+2 Science] [in this city]",
-      "[+1 Production] per [5] population [in this city]"
-    ]
-  },
-  {
-    "name": "Uranium Defense Complex",
-    "cost": 380,
-    "requiredTech": "Atomic Theory",
-    "requiredResource": "Uranium",
-    "maintenance": 5,
-    "uniques": [
-      "[+25]% [Defense] [in this city]",
+      "[+2 Production] [in this city]",
       "[+1 Science] [in this city]"
     ]
   },
   {
-    "name": "Nuclear Energy Plant",
-    "cost": 420,
+    "name": "Uranium Power Generator",
+    "cost": 520,
+    "maintenance": 4,
+    "requiredBuilding": "Uranium Refinery",
     "requiredTech": "Nuclear Fission",
     "requiredResource": "Uranium",
-    "maintenance": 4,
     "uniques": [
       "[+2 Production] [in this city]",
-      "[10]% [Production] [in this city]"
+      "[+1 Gold] [in this city]"
     ]
   },
   {
-    "name": "Nuclear Research Facility",
-    "cost": 460,
-    "requiredTech": "Nuclear Fission",
+    "name": "Uranium Defense Complex",
+    "cost": 650,
+    "maintenance": 5,
+    "requiredBuilding": "Uranium Power Generator",
+    "requiredTech": "Advanced Ballistics",
     "requiredResource": "Uranium",
-    "maintenance": 4,
+    "cityStrength": 25,
+    "cityHealth": 250,
     "uniques": [
-      "[+2 Science] per [4] population [in this city]",
-      "[+1 Science] from each Trade Route"
-    ]
-  },
-  {
-    "name": "Nuclear Faith Temple",
-    "cost": 500,
-    "requiredTech": "Nuclear Fission",
-    "requiredResource": "Uranium",
-    "maintenance": 2,
-    "uniques": [
-      "[+3 Faith] [in this city]",
-      "Only available (when religion is enabled)"
-    ]
-  },
-  {
-    "name": "Atomic Engineering Bureau",
-    "cost": 540,
-    "requiredTech": "Rocketry",
-    "requiredResource": "Uranium",
-    "maintenance": 4,
-    "uniques": [
-      "[15]% [Production] [in this city]",
-      "[+2 Science] [in this city]"
+      "[+2 Science] [in this city]",
+      "[+1 Production] [in this city]"
     ]
   },
   {
     "name": "Uranium Trade Bureau",
     "cost": 580,
-    "requiredTech": "Rocketry",
+    "maintenance": 3,
+    "requiredBuilding": "Nuclear Plant",
+    "requiredTech": "Globalization",
     "requiredResource": "Uranium",
-    "maintenance": 4,
     "uniques": [
-      "[+2 Gold] from each Trade Route",
+      "[+3 Gold] [in this city]",
       "[+1 Science] [in this city]"
     ]
   },
   {
-    "name": "Nuclear Armory",
-    "cost": 620,
-    "requiredTech": "Advanced Ballistics",
-    "requiredResource": "Uranium",
-    "maintenance": 5,
-    "uniques": [
-      "[+15]% [Production] [in this city]",
-      "[+1 Production] per [5] population [in this city]"
-    ]
-  },
-  {
-    "name": "Uranium Research Institute",
-    "cost": 660,
+    "name": "Uranium Enrichment Lab",
+    "cost": 600,
+    "maintenance": 4,
+    "requiredBuilding": "Uranium Refinery",
     "requiredTech": "Particle Physics",
     "requiredResource": "Uranium",
-    "maintenance": 5,
     "uniques": [
       "[+3 Science] [in this city]",
-      "[+1 Science] per [4] population [in this city]"
+      "[+1 Production] [in this city]"
     ]
   },
   {
-    "name": "Global Nuclear Authority",
-    "cost": 720,
-    "requiredTech": "Particle Physics",
+    "name": "Radiation Shielding Facility",
+    "cost": 630,
+    "maintenance": 5,
+    "requiredBuilding": "Uranium Enrichment Lab",
+    "requiredTech": "Robotics",
     "requiredResource": "Uranium",
-    "maintenance": 6,
+    "cityHealth": 200,
     "uniques": [
-      "[+3 Science] from each Trade Route",
-      "[+1 Happiness] [in this city]"
+      "[+2 Production] [in this city]",
+      "[+2 Science] [in this city]"
+    ]
+  },
+  {
+    "name": "Nuclear Logistics Hub",
+    "cost": 590,
+    "maintenance": 4,
+    "requiredBuilding": "Uranium Trade Bureau",
+    "requiredTech": "Satellites",
+    "requiredResource": "Uranium",
+    "uniques": [
+      "[+1 Gold] per [2] population [in this city]",
+      "[+2 Science] [in this city]"
+    ]
+  },
+  {
+    "name": "Uranium Supply Depot",
+    "cost": 560,
+    "maintenance": 4,
+    "requiredBuilding": "Nuclear Plant",
+    "requiredTech": "Lasers",
+    "requiredResource": "Uranium",
+    "uniques": [
+      "[+2 Production] [in this city]",
+      "[+1 Gold] [in this city]"
+    ]
+  },
+  {
+    "name": "Nuclear Material Storage",
+    "cost": 600,
+    "maintenance": 4,
+    "requiredBuilding": "Uranium Supply Depot",
+    "requiredTech": "Nanotechnology",
+    "requiredResource": "Uranium",
+    "uniques": [
+      "[+2 Science] [in this city]",
+      "[+1 Gold] [in this city]"
+    ]
+  },
+  {
+    "name": "Uranium Research Division",
+    "cost": 620,
+    "maintenance": 5,
+    "requiredBuilding": "Uranium Enrichment Lab",
+    "requiredTech": "Future Tech",
+    "requiredResource": "Uranium",
+    "uniques": [
+      "[+4 Science] [in this city]",
+      "[+1 Production] [in this city]"
+    ]
+  },
+  {
+    "name": "Uranium Energy Plant",
+    "cost": 640,
+    "maintenance": 5,
+    "requiredBuilding": "Uranium Power Generator",
+    "requiredTech": "Fusion Power",
+    "requiredResource": "Uranium",
+    "uniques": [
+      "[+3 Production] [in this city]",
+      "[+1 Gold] [in this city]"
     ]
   }
 ]
