@@ -1,122 +1,122 @@
 [
   {
-    "name": "Aluminum Mining Site",
-    "cost": 250,
-    "requiredTech": "Electricity",
-    "requiredResource": "Aluminum",
-    "maintenance": 2,
+    "name": "Uranium Extraction Lab",
+    "cost": 300,
+    "requiredTech": "Atomic Theory",
+    "requiredResource": "Uranium",
+    "maintenance": 3,
     "uniques": [
-      "[+1 Production] from [Mine] tiles [in this city]",
+      "[+1 Science] [in this city]",
+      "[+1 Production] from each Trade Route"
+    ]
+  },
+  {
+    "name": "Nuclear Refinement Center",
+    "cost": 340,
+    "requiredTech": "Atomic Theory",
+    "requiredResource": "Uranium",
+    "maintenance": 4,
+    "uniques": [
+      "[+2 Science] [in this city]",
+      "[+1 Production] per [5] population [in this city]"
+    ]
+  },
+  {
+    "name": "Uranium Defense Complex",
+    "cost": 380,
+    "requiredTech": "Atomic Theory",
+    "requiredResource": "Uranium",
+    "maintenance": 5,
+    "uniques": [
+      "[+25]% [Defense] [in this city]",
       "[+1 Science] [in this city]"
     ]
   },
   {
-    "name": "Aluminum Refinery",
-    "cost": 290,
-    "requiredTech": "Replaceable Parts",
-    "requiredResource": "Aluminum",
-    "maintenance": 3,
-    "uniques": [
-      "[+1 Production] per [4] population [in this city]",
-      "[+1 Gold] [in this city]"
-    ]
-  },
-  {
-    "name": "Aluminum Faith Generator",
-    "cost": 320,
-    "requiredTech": "Electricity",
-    "requiredResource": "Aluminum",
-    "maintenance": 2,
-    "uniques": [
-      "[+2 Faith] [in this city]",
-      "Only available (when religion is enabled)"
-    ]
-  },
-  {
-    "name": "Lightweight Alloy Plant",
-    "cost": 350,
-    "requiredTech": "Plastics",
-    "requiredResource": "Aluminum",
-    "maintenance": 3,
-    "uniques": [
-      "[+10]% [Production] [in this city]",
-      "[+1 Science] from [Mine] tiles [in this city]"
-    ]
-  },
-  {
-    "name": "Aeronautic Engineering Hub",
-    "cost": 380,
-    "requiredTech": "Flight",
-    "requiredResource": "Aluminum",
-    "maintenance": 3,
-    "uniques": [
-      "[+2 Science] per [4] population [in this city]",
-      "[+1 Gold] [in this city]"
-    ]
-  },
-  {
-    "name": "Aluminum Pressure Smelter",
+    "name": "Nuclear Energy Plant",
     "cost": 420,
-    "requiredTech": "Plastics",
-    "requiredResource": "Aluminum",
+    "requiredTech": "Nuclear Fission",
+    "requiredResource": "Uranium",
     "maintenance": 4,
     "uniques": [
-      "[15]% [Production] [in this city]",
+      "[+2 Production] [in this city]",
+      "[10]% [Production] [in this city]"
+    ]
+  },
+  {
+    "name": "Nuclear Research Facility",
+    "cost": 460,
+    "requiredTech": "Nuclear Fission",
+    "requiredResource": "Uranium",
+    "maintenance": 4,
+    "uniques": [
+      "[+2 Science] per [4] population [in this city]",
       "[+1 Science] from each Trade Route"
     ]
   },
   {
-    "name": "Aluminum Trade Bureau",
-    "cost": 450,
-    "requiredTech": "Electronics",
-    "requiredResource": "Aluminum",
-    "maintenance": 3,
+    "name": "Nuclear Faith Temple",
+    "cost": 500,
+    "requiredTech": "Nuclear Fission",
+    "requiredResource": "Uranium",
+    "maintenance": 2,
     "uniques": [
-      "[+1 Gold] from each Trade Route",
-      "[+1 Science] [in this city]"
+      "[+3 Faith] [in this city]",
+      "Only available (when religion is enabled)"
     ]
   },
   {
-    "name": "Industrial Alloy Foundry",
-    "cost": 480,
-    "requiredTech": "Computers",
-    "requiredResource": "Aluminum",
+    "name": "Atomic Engineering Bureau",
+    "cost": 540,
+    "requiredTech": "Rocketry",
+    "requiredResource": "Uranium",
     "maintenance": 4,
     "uniques": [
-      "[+1 Production] per [3] population [in this city]",
-      "[+1 Science] [in this city]"
-    ]
-  },
-  {
-    "name": "High-Tech Manufacturing Lab",
-    "cost": 510,
-    "requiredTech": "Robotics",
-    "requiredResource": "Aluminum",
-    "maintenance": 4,
-    "uniques": [
-      "[10]% [Production] [in this city]",
+      "[15]% [Production] [in this city]",
       "[+2 Science] [in this city]"
     ]
   },
   {
-    "name": "Aluminum Industrial District",
-    "cost": 540,
-    "requiredTech": "Robotics",
-    "requiredResource": "Aluminum",
+    "name": "Uranium Trade Bureau",
+    "cost": 580,
+    "requiredTech": "Rocketry",
+    "requiredResource": "Uranium",
     "maintenance": 4,
     "uniques": [
-      "[+1 Science] per [5] population [in this city]",
-      "[+1 Gold] [in this city]"
+      "[+2 Gold] from each Trade Route",
+      "[+1 Science] [in this city]"
     ]
   },
   {
-    "name": "National Aluminum Authority",
-    "cost": 580,
-    "requiredTech": "Nanotechnology",
-    "requiredResource": "Aluminum",
+    "name": "Nuclear Armory",
+    "cost": 620,
+    "requiredTech": "Advanced Ballistics",
+    "requiredResource": "Uranium",
     "maintenance": 5,
     "uniques": [
-      "[15]% [Production] [in this city]",
+      "[+15]% [Production] [in this city]",
+      "[+1 Production] per [5] population [in this city]"
+    ]
+  },
+  {
+    "name": "Uranium Research Institute",
+    "cost": 660,
+    "requiredTech": "Particle Physics",
+    "requiredResource": "Uranium",
+    "maintenance": 5,
+    "uniques": [
+      "[+3 Science] [in this city]",
+      "[+1 Science] per [4] population [in this city]"
+    ]
+  },
+  {
+    "name": "Global Nuclear Authority",
+    "cost": 720,
+    "requiredTech": "Particle Physics",
+    "requiredResource": "Uranium",
+    "maintenance": 6,
+    "uniques": [
+      "[+3 Science] from each Trade Route",
       "[+1 Happiness] [in this city]"
     ]
   }
