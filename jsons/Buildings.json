@@ -1,115 +1,109 @@
-[
-  {
-    "name": "Iron Mining Expansion",
-    "cost": 120,
-    "requiredTech": "Mining",
-    "requiredResource": "Iron",
-    "maintenance": 1,
+{
+    "name": "Coal Mill",
+    "cost": 150,
+    "requiredTech": "Industrialization",
+    "requiredResource": "Coal",
     "uniques": [
-      "[+1 Production] from [Mine] tiles [in this city]",
-      "[+1 Science] from each Trade Route"
+      "[+2 Production] [in this city]"
     ]
   },
   {
-    "name": "Smithing Mine",
-    "cost": 160,
-    "requiredTech": "Iron Working",
-    "requiredResource": "Iron",
-    "maintenance": 1,
+    "name": "Steam Workshop",
+    "cost": 180,
+    "requiredTech": "Industrialization",
+    "requiredResource": "Coal",
+    "uniques": [
+      "[+10]% Production [in this city]",
+      "[+1 Faith] [in this city]"
+    ]
+  },
+  {
+    "name": "Coal Refinery",
+    "cost": 220,
+    "requiredTech": "Steam Power",
+    "requiredResource": "Coal",
+    "uniques": [
+      "[+1 Production] from [Mine] tiles [in this city]",
+      "[+1 Gold] [in this city]"
+    ]
+  },
+  {
+    "name": "Steel Energy Plant",
+    "cost": 240,
+    "requiredTech": "Steam Power",
+    "requiredResource": "Coal",
     "uniques": [
       "[+2 Production] [in this city]",
-      "[+1 Gold] from [Iron] tiles [in this city]"
+      "[+1 Faith] [in this city]"
     ]
   },
   {
-    "name": "Steel Foundry",
-    "cost": 200,
-    "requiredTech": "Metal Casting",
-    "requiredResource": "Iron",
-    "maintenance": 2,
-    "uniques": [
-      "[+1 Science] from [Mine] tiles [in this city]",
-      "[+10]% Production when constructing [Land] units [in this city]"
-    ]
-  },
-  {
-    "name": "Forge Extension",
-    "cost": 230,
-    "requiredTech": "Metal Casting",
-    "requiredResource": "Iron",
-    "uniques": [
-      "[+1 Production] per [3] population [in this city]",
-      "[+1 Science] [in this city]"
-    ]
-  },
-  {
-    "name": "Weapon Smithery",
+    "name": "Coal Power Station",
     "cost": 260,
-    "requiredTech": "Machinery",
-    "requiredResource": "Iron",
+    "requiredTech": "Electricity",
+    "requiredResource": "Coal",
     "uniques": [
-      "[10]% Production when constructing [Land] units [in this city]",
-      "[+1 Science] from each Trade Route"
-    ]
-  },
-  {
-    "name": "Steelworks",
-    "cost": 300,
-    "requiredTech": "Steel",
-    "requiredResource": "Iron",
-    "maintenance": 2,
-    "uniques": [
-      "[+1 Production] from [Mine] tiles [in this city]",
+      "[+3 Production] [in this city]",
       "[+1 Science] [in this city]"
     ]
   },
   {
-    "name": "Smelting Complex",
-    "cost": 330,
-    "requiredTech": "Metallurgy",
-    "requiredResource": "Iron",
+    "name": "National Foundry",
+    "cost": 280,
+    "requiredTech": "Electricity",
+    "requiredResource": "Coal",
     "uniques": [
-      "[+1 Production] from [Iron] tiles [in this city]",
-      "[+1 Science] from each Trade Route"
+      "[+2 Production] from [Mine] tiles [in this city]",
+      "[+1 Faith] [in this city]"
     ]
   },
   {
-    "name": "Industrial Armory",
-    "cost": 370,
-    "requiredTech": "Gunpowder",
-    "requiredResource": "Iron",
+    "name": "Carbon Factory",
+    "cost": 290,
+    "requiredTech": "Combustion",
+    "requiredResource": "Coal",
     "uniques": [
-      "[10]% Production when constructing [Military] units [in this city]",
+      "[+2 Science] [in this city]",
       "[+1 Production] [in this city]"
     ]
   },
   {
-    "name": "Advanced Smelter",
-    "cost": 400,
-    "requiredTech": "Steam Power",
-    "requiredResource": "Iron",
+    "name": "Coal Refinement Plant",
+    "cost": 310,
+    "requiredTech": "Combustion",
+    "requiredResource": "Coal",
     "uniques": [
-      "[+1 Production] per [5] population [in this city]",
-      "[+1 Science] from [Mine] tiles [in this city]"
+      "[+1 Faith] from [Mine] tiles [in this city]",
+      "[+2 Production] [in this city]"
     ]
   },
   {
-    "name": "Iron Reclamation Plant",
-    "cost": 440,
-    "requiredTech": "Industrialization",
-    "requiredResource": "Iron",
+    "name": "Industrial Steam Hall",
+    "cost": 320,
+    "requiredTech": "Plastics",
+    "requiredResource": "Coal",
+    "uniques": [
+      "[+10]% Production [in this city]",
+      "[+1 Science] [in this city]"
+    ]
+  },
+  {
+    "name": "National Steelworks",
+    "cost": 340,
+    "requiredTech": "Plastics",
+    "requiredResource": "Coal",
     "uniques": [
       "[+2 Production] [in this city]",
-      "[+1 Science] from each Trade Route"
+      "[+2 Faith] [in this city]"
     ]
   },
   {
-    "name": "National Steel Foundry",
-    "cost": 480,
-    "requiredTech": "Railroads",
-    "requiredResource": "Iron",
+    "name": "Empire Steam Tower",
+    "cost": 360,
+    "requiredTech": "Plastics",
+    "requiredResource": "Coal",
     "uniques": [
-      "[15]% [Production] [in this city]",
+      "[+3 Production] [in this city]",
       "[+1 Happiness] [in this city]"
     ]
   }
