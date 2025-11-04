@@ -1,6 +1,5 @@
 [
-
-  //HORSES BUILDINGS
+ //Horse
   {
     "name": "Horse Ranch",
     "cost": 120,
@@ -39,7 +38,7 @@
     "requiredResource": "Horses",
     "uniques": [
       "[+1 Production] [in this city]",
-      "Trade routes generate +1 Gold"
+      "[+1 Gold] from each Trade Route [in this city]"
     ]
   },
   {
@@ -56,10 +55,10 @@
     "name": "Grand Stable",
     "cost": 300,
     "requiredBuilding": "Horse Ranch",
-    "requiredTech": "Military Tradition",
+    "requiredTech": "Military Science",
     "requiredResource": "Horses",
     "uniques": [
-      "[+15% Production] when training [Mounted] units [in this city]",
+      "[10%] Production when constructing [Mounted] units [in this city]",
       "New [Mounted] units start with [10] XP [in this city]"
     ]
   },
@@ -117,7 +116,7 @@
     ]
   },
 
-  //IRON BUILDINGS
+ //Iron
   {
     "name": "Iron Mining Expansion",
     "cost": 150,
@@ -143,7 +142,7 @@
     "requiredTech": "Steel",
     "requiredResource": "Iron",
     "uniques": [
-      "[+15% Production] when training [Land] units [in this city]",
+      "[10%] Production when constructing [Land] units [in this city]",
       "New [Melee] units start with [15] XP [in this city]"
     ]
   },
@@ -220,11 +219,10 @@
   {
     "name": "National Steel Foundry",
     "cost": 650,
-    "requiredTech": "Railroad",
+    "requiredTech": "Railroads",
     "requiredResource": "Iron",
     "uniques": [
       "Limited to [1] per Civilization",
       "[+5 Production, +2 Gold] [in this city]"
     ]
-  }
-]
+  },
