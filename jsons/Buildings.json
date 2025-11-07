@@ -740,8 +740,8 @@
     "faith": 4,
     "requiredTech": "Theology",
     "uniques": [
-      "[+2 Culture] from every [Shrine]",
-      "[+1 Culture] from every [Temple]",
+      "[+3 Culture] from every [Shrine]",
+      "[+2 Culture] from every [Temple]",
       "Free [Great Prophet] appears",
       "[+17]% [Culture] from Trade Routes",
       "[+13]% [Faith] from Trade Routes",
@@ -772,7 +772,8 @@
     "uniques": [
       "[+20]% [Gold] from Trade Routes",
       "[+3 Faith] from every [Market]",
-      "Free [Great Merchant] appears"
+      "Free [Great Merchant] appears",
+      "Provides 1 extra copy of each improved luxury resource near this City"
     ],
     "quote": "“The tower stands as a whisper of devotion, surviving the silence of centuries.” — Ibn Battuta"
   },
@@ -827,7 +828,7 @@
     "requiredTech": "Physics",
     "uniques": [
       "[+15]% [Production] from Trade Routes",
-      "[+15]% [Food] from Trade Routes",
+      "[+25]% [Food] from Trade Routes",
       "Gain a free [Aqueduct] [in this city]"
     ],
     "quote": "“Where water flows, life follows — even across the air.” — Thomas Telford"
@@ -841,12 +842,12 @@
 			"Only available <when espionage is enabled>",
 			"[+25]% spy effectiveness [in all cities]",
 			"[-35]% enemy spy effectiveness [in this city]",
-			"[+15]% [Culture] [in all cities]",
-			"Promotes all spies [1] time(s)",
+			"[+25]% [Culture] [in all cities]",
+			"Promotes all spies [2] time(s)",
 			"Gain an extra spy",
-			"[+2 Culture] [in this city]"
+			"[+14 Culture] [in this city]"
 		],
-		"culture": 2,
+		"culture": 6,
 		"quote": "'The quietest words often hold the loudest secrets.' - Unknown, from the Archives of the Shadow Court"
 	},
 	{
@@ -855,11 +856,11 @@
 		"cost": 500,
 		"requiredTech": "Education",
 		"uniques": [
-			"[+15]% [Science] [in all cities]",
-			"[+1 Science] from every [Library]",
-			"[+25]% Great Person generation [in this city]"
+			"[+25]% [Science] [in all cities]",
+			"[+3 Science] from every [Library]",
+			"[+100]% Great Person generation [in this city]"
 		],
-		"culture": 1,
+		"culture": 4,
 		"greatPersonPoints": {"Great Scientist": 3},
 		"quote": "'He who knows the measure of ignorance approaches the beginning of wisdom.' - From the Sayings of Al-Kindi"
 	},
@@ -869,12 +870,12 @@
 		"cost": 600,
 		"requiredTech": "Economics",
 		"uniques": [
-			"[+15]% [Gold] [in all cities]",
-			"[+3 Gold] from every [Market]",
+			"[+25]% [Gold] [in all cities]",
+			"[+4 Gold] from every [Market]",
 			"Units in cities cost no Maintenance",
-			"[+1 Happiness] [in this city]"
+			"[+10 Happiness] [in this city]"
 		],
-		"culture": 1,
+		"culture": 4,
 		"greatPersonPoints": {"Great Merchant": 3},
 		"quote": "'Coins are but metal until trust gives them life.' - From The Ledger of the First Merchants"
 	},
