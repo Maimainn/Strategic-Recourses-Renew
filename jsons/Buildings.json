@@ -766,7 +766,7 @@
   {
     "name": "Minaret of Jam",
     "isWonder": true,
-    "cost": 420,
+    "cost": 280,
     "faith": 3,
     "requiredTech": "Mathematics",
     "uniques": [
@@ -779,7 +779,7 @@
   {
     "name": "Kumbhalgarh Fort",
     "isWonder": true,
-    "cost": 460,
+    "cost": 270,
     "cityStrength": 25,
     "cityHealth": 50,
     "requiredTech": "Construction",
@@ -794,7 +794,7 @@
   {
     "name": "Stari Most Bridge",
     "isWonder": true,
-    "cost": 420,
+    "cost": 300,
     "gold": 7,
     "requiredTech": "Engineering",
     "uniques": [
@@ -807,7 +807,7 @@
   {
     "name": "Potala Palace",
     "isWonder": true,
-    "cost": 480,
+    "cost": 320,
     "culture": 6,
     "faith": 2,
     "requiredTech": "Civil Service",
@@ -1004,7 +1004,7 @@
   {
     "name": "Strategic Resource Exchange",
     "isNationalWonder": true,
-    "cost": 190,
+    "cost": 290,
     "gold": 3,
     "requiredTech": "Economics",
     "uniques": [
@@ -1013,8 +1013,8 @@
       "Provides [3] [Horses]",
       "Provides [3] [Oil]",
       "Provides [3] [Aluminum]",
-      "[+10]% [Gold] from Trade Routes",
-      "[+10]% [Production] from Trade Routes"
+      "[+20]% [Gold] from Trade Routes",
+      "[+20]% [Production] from Trade Routes"
     ]
   }
 ]
