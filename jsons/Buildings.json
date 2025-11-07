@@ -789,9 +789,11 @@
       "All healing effects doubled",
       "[+20]% [Production] from Trade Routes",
       "Great General provides double combat bonus",
-      "All newly-trained [Military] units [in this city] receive the [Blitz] promotion",
-      "Free [Great General] appears"
+      "All newly-trained [Military] units [in this city] receive the [Logistics] promotion",
+      "Free [Great General] appears",
+      "All newly-trained [Great General] units [in all cities] receive the [Haka War Dance] promotion <starting from the [Industrial era]>"
     ],
+    "greatPersonPoints": {"Great General": 7},
     "quote": "“Fortresses are not built merely of stone, but of the will to endure.” — Rajput Chronicle"
   },
   {
@@ -807,6 +809,7 @@
       "[80]% growth [in all cities]",
       "Free [Great Engineer] appears"
     ],
+    "greatPersonPoints": {"Great Engineer": 3},
     "quote": "“The bridge unites not only banks of a river, but hearts once divided.” — Meša Selimović"
   },
   {
@@ -887,6 +890,75 @@
 		"greatPersonPoints": {"Great Merchant": 3},
 		"quote": "'Coins are but metal until trust gives them life.' - From The Ledger of the First Merchants"
 	},
+  {
+    "name": "Wall of Gorgan",
+    "isWonder": true,
+    "cost": 1020,
+    "cityStrength": 50,
+    "cityHealth": 175,
+    "requiredTech": "Dynamite",
+    "uniques": [
+      "[+30]% City Strength from defensive buildings",
+      "All healing effects doubled",
+      "All newly-trained [Military] units [in this city] receive the [March] promotion",
+      "[+35]% Strength for cities",
+      "Free [Great General] appears"
+    ],
+    "culture": 3,
+    "greatPersonPoints": {"Great General": 2},
+    "quote": "'Even the longest wall cannot guard the heart unfortified.' - Inscription found near the Red Snake Walls, Persia"
+  },
+  {
+    "name": "The Nineveh Gardens",
+    "isWonder": true,
+    "cost": 280,
+    "food": 9,
+    "requiredTech": "Engineering",
+    "uniques": [
+      "[+20]% growth [in all cities]",
+      "[+3 Food] from every [Garden]",
+      "[+20]% [Food] from Trade Routes",
+      "Gain a free [Garden] [in all cities]",
+      "[+95]% Food is carried over after population increases [in all cities connected to capital]"
+    ],
+    "culture": 4,
+    "quote": "'From barren earth, the queen made paradise bloom.' - Fragment from the Chronicles of Ashurbanipal"
+  },
+  {
+    "name": "The Theatre of Dionysus",
+    "isWonder": true,
+    "cost": 290,
+    "culture": 12,
+    "requiredTech": "Drama and Poetry",
+    "uniques": [
+      "[+25]% [Culture] [in all cities]",
+      "[+4 Culture] from every [Amphitheater]",
+      "[+50]% Great Person generation [in this city]",
+      "Gain a free [Amphitheater] [in this city]"
+    ],
+    "greatPersonPoints": {"Great Artist": 3},
+    "quote": "'The masks we wear reveal more than they hide.' - Athenian Maxim, 4th century BCE"
+  },
+  {
+    "name": "Sanctum of Harmony",
+    "isWonder": true,
+    "cost": 520,
+    "requiredTech": "Acoustics",
+    "uniques": [
+      "[+15]% [Science] [in all cities]",
+      "[+15]% [Gold] [in all cities]",
+      "[+15]% [Culture] [in all cities]",
+      "[+15]% [Production] [in all cities]",
+      "[+100]% Great Person generation [in this city]",
+      "[+25]% Great Person generation [in all cities]",
+      "Free Great Person"
+    ],
+    "culture": 5,
+    "greatPersonPoints": {"Great Artist": 2},
+    "greatPersonPoints": {"Great Scientist": 2},
+    "greatPersonPoints": {"Great Engineer": 2},
+    "quote": "'When all voices align, even silence becomes divine.' - Verse from the Lost Hymns of Kailasa"
+  },
 
  //National Wonders
   {
