@@ -746,7 +746,8 @@
       "[+17]% [Culture] from Trade Routes",
       "[+13]% [Faith] from Trade Routes",
       "Gain a free [Temple] [in all cities]"
-    ]
+    ],
+    "quote": "“Faith is carved not only in stone, but in the soul of those who believe.” — Abba Gebre Menfes Kidus"
   },
   {
     "name": "Chand Baori Stepwell",
@@ -759,7 +760,8 @@
       "[-30]% maintenance cost for [all] buildings [in this city]",
       "[+17]% [Production] from Trade Routes",
       "Gain a free [Aqueduct] [in this city]"
-    ]
+    ],
+    "quote": "“Even in the depths, beauty can be found where life draws its water.” — Rabindranath Tagore"
   },
   {
     "name": "Minaret of Jam",
@@ -771,7 +773,8 @@
       "[+20]% [Gold] from Trade Routes",
       "[+3 Faith] from every [Market]",
       "Free [Great Merchant] appears"
-    ]
+    ],
+    "quote": "“The tower stands as a whisper of devotion, surviving the silence of centuries.” — Ibn Battuta"
   },
   {
     "name": "Kumbhalgarh Fort",
@@ -785,7 +788,8 @@
       "All healing effects doubled",
       "[+20]% [Production] from Trade Routes",
       "Free [Great General] appears"
-    ]
+    ],
+    "quote": "“Fortresses are not built merely of stone, but of the will to endure.” — Rajput Chronicle"
   },
   {
     "name": "Stari Most Bridge",
@@ -797,7 +801,8 @@
       "[+15]% [Gold] from Trade Routes",
       "[-20]% maintenance cost for [all] buildings [in this city]",
       "Free [Great Engineer] appears"
-    ]
+    ],
+    "quote": "“The bridge unites not only banks of a river, but hearts once divided.” — Meša Selimović"
   },
   {
     "name": "Potala Palace",
@@ -810,7 +815,8 @@
       "Free [Great Scientist] appears",
       "[+15]% [Culture] from Trade Routes",
       "Gain a free [Monastery] [in this city]"
-    ]
+    ],
+    "quote": "“Where wisdom dwells, the walls breathe prayer.” — The Dalai Lama"
   },
   {
     "name": "Pontcysyllte Aqueduct",
@@ -823,8 +829,55 @@
       "[+15]% [Production] from Trade Routes",
       "[+15]% [Food] from Trade Routes",
       "Gain a free [Aqueduct] [in this city]"
-    ]
+    ],
+    "quote": "“Where water flows, life follows — even across the air.” — Thomas Telford"
   },
+	{
+		"name": "The Great Intelligence Bureau",
+		"isWonder": true,
+		"cost": 550,
+		"requiredTech": "Printing Press",
+		"uniques": [
+			"Only available <when espionage is enabled>",
+			"[+25]% spy effectiveness [in all cities]",
+			"[-35]% enemy spy effectiveness [in this city]",
+			"[+15]% [Culture] [in all cities]",
+			"Promotes all spies [1] time(s)",
+			"Gain an extra spy",
+			"[+2 Culture] [in this city]"
+		],
+		"culture": 2,
+		"quote": "'The quietest words often hold the loudest secrets.' - Unknown, from the Archives of the Shadow Court"
+	},
+	{
+		"name": "The House of Wisdom",
+		"isWonder": true,
+		"cost": 500,
+		"requiredTech": "Education",
+		"uniques": [
+			"[+15]% [Science] [in all cities]",
+			"[+1 Science] from every [Library]",
+			"[+25]% Great Person generation [in this city]"
+		],
+		"culture": 1,
+		"greatPersonPoints": {"Great Scientist": 3},
+		"quote": "'He who knows the measure of ignorance approaches the beginning of wisdom.' - From the Sayings of Al-Kindi"
+	},
+	{
+		"name": "The Golden Exchange",
+		"isWonder": true,
+		"cost": 600,
+		"requiredTech": "Economics",
+		"uniques": [
+			"[+15]% [Gold] [in all cities]",
+			"[+3 Gold] from every [Market]",
+			"Units in cities cost no Maintenance",
+			"[+1 Happiness] [in this city]"
+		],
+		"culture": 1,
+		"greatPersonPoints": {"Great Merchant": 3},
+		"quote": "'Coins are but metal until trust gives them life.' - From The Ledger of the First Merchants"
+	},
 
  //National Wonders
   {
