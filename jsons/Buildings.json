@@ -840,7 +840,7 @@
 		"requiredTech": "Printing Press",
 		"uniques": [
 			"Only available <when espionage is enabled>",
-			"[+25]% spy effectiveness [in all cities]",
+			"[-25]% enemy spy effectiveness [in all cities]",
 			"[-35]% enemy spy effectiveness [in this city]",
 			"[+25]% [Culture] [in all cities]",
 			"Promotes all spies [2] time(s)",
