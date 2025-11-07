@@ -873,7 +873,8 @@
 			"[+25]% [Gold] [in all cities]",
 			"[+4 Gold] from every [Market]",
 			"Units in cities cost no Maintenance",
-			"[+10 Happiness] [in this city]"
+			"[+10 Happiness] [in this city]",
+    "Empire enters golden age"
 		],
 		"culture": 4,
 		"greatPersonPoints": {"Great Merchant": 3},
