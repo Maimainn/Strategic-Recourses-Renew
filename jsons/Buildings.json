@@ -788,6 +788,8 @@
       "[+25]% City Strength from defensive buildings",
       "All healing effects doubled",
       "[+20]% [Production] from Trade Routes",
+      "Great General provides double combat bonus",
+      "All newly-trained [Military] units [in this city] receive the [Blitz] promotion",
       "Free [Great General] appears"
     ],
     "quote": "“Fortresses are not built merely of stone, but of the will to endure.” — Rajput Chronicle"
@@ -801,6 +803,8 @@
     "uniques": [
       "[+15]% [Gold] from Trade Routes",
       "[-20]% maintenance cost for [all] buildings [in this city]",
+      "No Maintenance costs for improvements in [all] tiles <in [in all cities connected to capital] cities>",
+      "[80]% growth [in all cities]",
       "Free [Great Engineer] appears"
     ],
     "quote": "“The bridge unites not only banks of a river, but hearts once divided.” — Meša Selimović"
@@ -815,6 +819,8 @@
     "uniques": [
       "Free [Great Scientist] appears",
       "[+15]% [Culture] from Trade Routes",
+      "[+2] Movement <for [Civilian] units>",
+      "[+3] Sight <for [Civilian] units>",
       "Gain a free [Monastery] [in this city]"
     ],
     "quote": "“Where wisdom dwells, the walls breathe prayer.” — The Dalai Lama"
@@ -829,6 +835,7 @@
     "uniques": [
       "[+15]% [Production] from Trade Routes",
       "[+25]% [Food] from Trade Routes",
+      "[+2] population [in all cities]",
       "Gain a free [Aqueduct] [in this city]"
     ],
     "quote": "“Where water flows, life follows — even across the air.” — Thomas Telford"
