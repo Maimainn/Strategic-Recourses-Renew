@@ -155,6 +155,15 @@
     ]
   },
   {
+    "name": "Steel Mine Extraction",
+    "cost": 180,
+    "requiredTech": "Iron Working",
+    "uniques": [
+      "[+5 Production] [in all cities]",
+      "Provides [3] [Iron]"
+    ]
+  },
+  {
     "name": "Steel Foundry",
     "cost": 200,
     "requiredTech": "Metal Casting",
@@ -194,6 +203,17 @@
     "uniques": [
       "[+1 Production] from [Mine] tiles [in this city]",
       "[+1 Science] [in this city]"
+    ]
+  },
+  {
+    "name": "Iron Mine River Panning",
+    "cost": 310,
+    "requiredTech": "Steel",
+    "requiredResource": "Iron",
+    "uniques": [
+      "Provides [5] [Iron]",
+      "[+3 Production] per every [3] [Happiness]",
+      "Must be next to [River]"
     ]
   },
   {
@@ -244,6 +264,16 @@
     "uniques": [
       "[15]% [Production] [in this city]",
       "[+1 Happiness] [in this city]"
+    ]
+  },
+  {
+    "name": "Iron Waste Recycling Center",
+    "cost": 500,
+    "requiredTech": "Steel",
+    "requiredResource": "Iron",
+    "uniques": [
+      "Provides [7] [Iron]",
+      "[+15]% [Production] from every [Improvement]"
     ]
   },
 
