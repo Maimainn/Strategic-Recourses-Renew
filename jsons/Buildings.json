@@ -2,7 +2,7 @@
  //Horse
   {
     "name": "Horse Ranch",
-    "cost": 120,
+    "cost": 100,
     "requiredTech": "Animal Husbandry",
     "requiredResource": "Horses",
     "maintenance": 1,
@@ -23,7 +23,7 @@
   },
   {
     "name": "Stable Extension",
-    "cost": 180,
+    "cost": 175,
     "requiredTech": "Horseback Riding",
     "requiredResource": "Horses",
     "uniques": [
@@ -63,7 +63,7 @@
   },
   {
     "name": "Grand Stable",
-    "cost": 250,
+    "cost": 320,
     "requiredTech": "Military Science",
     "requiredResource": "Horses",
     "uniques": [
@@ -73,7 +73,7 @@
   },
   {
     "name": "Royal Breeding Ground",
-    "cost": 260,
+    "cost": 350,
     "requiredTech": "Military Science",
     "uniques": [
       "[+2 Food] [in this city]",
@@ -84,7 +84,7 @@
   },
   {
     "name": "Mounted Parade Plaza",
-    "cost": 270,
+    "cost": 240,
     "requiredTech": "Chivalry",
     "requiredResource": "Horses",
     "uniques": [
@@ -94,7 +94,7 @@
   },
   {
     "name": "Horse Supply Depot",
-    "cost": 290,
+    "cost": 250,
     "requiredTech": "Chivalry",
     "requiredResource": "Horses",
     "uniques": [
@@ -104,7 +104,7 @@
   },
   {
     "name": "Mounted Guard Post",
-    "cost": 300,
+    "cost": 270,
     "requiredTech": "Gunpowder",
     "requiredResource": "Horses",
     "uniques": [
@@ -114,7 +114,7 @@
   },
   {
     "name": "Imperial Riding School",
-    "cost": 330,
+    "cost": 340,
     "requiredTech": "Military Science",
     "requiredResource": "Horses",
     "uniques": [
@@ -124,7 +124,7 @@
   },
   {
     "name": "Horse Genetical Breeding",
-    "cost": 350,
+    "cost": 375,
     "requiredTech": "Biology",
     "uniques": [
       "Provides [7] [Horses]",
@@ -199,7 +199,7 @@
   },
   {
     "name": "Steelworkings",
-    "cost": 300,
+    "cost": 290,
     "requiredTech": "Steel",
     "requiredResource": "Iron",
     "maintenance": 2,
@@ -210,7 +210,7 @@
   },
   {
     "name": "Iron Mine River Panning",
-    "cost": 310,
+    "cost": 280,
     "requiredTech": "Steel",
     "uniques": [
       "Provides [5] [Iron]",
@@ -222,7 +222,7 @@
   },
   {
     "name": "Smelting Complex",
-    "cost": 330,
+    "cost": 300,
     "requiredTech": "Metallurgy",
     "requiredResource": "Iron",
     "uniques": [
@@ -232,7 +232,7 @@
   },
   {
     "name": "Industrial Armory",
-    "cost": 270,
+    "cost": 240,
     "requiredTech": "Gunpowder",
     "requiredResource": "Iron",
     "uniques": [
@@ -242,7 +242,7 @@
   },
   {
     "name": "Advanced Smelter",
-    "cost": 260,
+    "cost": 330,
     "requiredTech": "Steam Power",
     "requiredResource": "Iron",
     "uniques": [
@@ -252,7 +252,7 @@
   },
   {
     "name": "Iron Reclamation Plant",
-    "cost": 240,
+    "cost": 320,
     "requiredTech": "Industrialization",
     "requiredResource": "Iron",
     "uniques": [
@@ -262,7 +262,7 @@
   },
   {
     "name": "National Steel Foundry",
-    "cost": 480,
+    "cost": 360,
     "requiredTech": "Railroads",
     "requiredResource": "Iron",
     "uniques": [
@@ -272,8 +272,9 @@
   },
   {
     "name": "Iron Waste Recycling Center",
-    "cost": 510,
+    "cost": 500,
     "requiredTech": "Ecology",
+    "maintenance": 5,
     "uniques": [
       "Provides [7] [Iron]",
       "[+15]% [Production] from every [Improvement]",
@@ -284,7 +285,7 @@
  //Coal
   {
     "name": "Coal Mining Site",
-    "cost": 120,
+    "cost": 170,
     "requiredTech": "Mining",
     "requiredResource": "Coal",
     "maintenance": 1,
@@ -296,19 +297,19 @@
   },
   {
     "name": "Coal Storage Facility",
-    "cost": 160,
+    "cost": 240,
     "requiredTech": "Engineering",
     "requiredResource": "Coal",
     "maintenance": 1,
     "uniques": [
       "Can only be built <after discovering [Industrialization]>",
-      "[+4 Production] [in this city]",
-      "[+2 Happiness] [in this city]"
+      "[+5 Production] [in this city]",
+      "[+3 Happiness] [in this city]"
     ]
   },
   {
     "name": "Railroad Falling Coal",
-    "cost": 340,
+    "cost": 390,
     "requiredTech": "Railroads",
     "uniques": [
       "Provides [3] [Coal]",
@@ -318,19 +319,19 @@
   },
   {
     "name": "Steam Workshop",
-    "cost": 200,
+    "cost": 350,
     "requiredTech": "Steam Power",
     "requiredResource": "Coal",
     "maintenance": 2,
     "uniques": [
       "Can only be built <after discovering [Industrialization]>",
-      "[15]% [Production] [in this city]",
-      "[+1 Science] from [Mine] tiles [in this city]"
+      "[+15]% [Production] [in this city]",
+      "[+2 Science] from [Mine] tiles [in this city]"
     ]
   },
   {
     "name": "Coal Refinement Plant",
-    "cost": 230,
+    "cost": 340,
     "requiredTech": "Industrialization",
     "requiredResource": "Coal",
     "maintenance": 2,
@@ -341,29 +342,29 @@
   },
   {
     "name": "Industrial Steam Hall",
-    "cost": 260,
+    "cost": 360,
     "requiredTech": "Steam Power",
     "requiredResource": "Coal",
     "maintenance": 2,
     "uniques": [
-      "[10]% [Production] [in this city]",
-      "[+1 Faith] [in this city]"
+      "[+15]% [Production] [in this city]",
+      "[+3 Faith] [in this city]"
     ]
   },
   {
     "name": "Coal Power Foundry",
-    "cost": 300,
+    "cost": 380,
     "requiredTech": "Electricity",
     "requiredResource": "Coal",
     "maintenance": 3,
     "uniques": [
-      "[+2 Production] [in this city]",
-      "[+1 Gold] from each Trade Route"
+      "[+4 Production] [in this city]",
+      "[+2 Gold] from each Trade Route"
     ]
   },
   {
     "name": "Army Coal Exchanged",
-    "cost": 420,
+    "cost": 470,
     "requiredTech": "Combined Arms",
     "maintenance": 5,
     "uniques": [
@@ -376,29 +377,29 @@
   },
   {
     "name": "Mechanized Plant",
-    "cost": 330,
+    "cost": 410,
     "requiredTech": "Replaceable Parts",
     "requiredResource": "Coal",
     "maintenance": 3,
     "uniques": [
-      "[+1 Production] per [3] population [in this city]",
-      "[+1 Science] [in this city]"
+      "[+2 Production] per [3] population [in this city]",
+      "[+3 Science] [in this city]"
     ]
   },
   {
     "name": "Steel Fuel Depot",
-    "cost": 370,
+    "cost": 390,
     "requiredTech": "Railroads",
     "requiredResource": "Coal",
     "maintenance": 2,
     "uniques": [
-      "[+1 Gold] from [Mine] tiles [in this city]",
-      "[+1 Faith] from each Trade Route"
+      "[+2 Gold] from [Mine] tiles [in this city]",
+      "[+2 Faith] from each Trade Route"
     ]
   },
   {
     "name": "Steam Machinery Hub",
-    "cost": 400,
+    "cost": 360,
     "requiredTech": "Electricity",
     "requiredResource": "Coal",
     "maintenance": 3,
@@ -414,13 +415,13 @@
     "requiredResource": "Coal",
     "maintenance": 3,
     "uniques": [
-      "[+1 Production] per [5] population [in this city]",
+      "[+2 Production] per [5] population [in this city]",
       "[+1 Gold] from each Trade Route"
     ]
   },
   {
     "name": "National Steamworks",
-    "cost": 480,
+    "cost": 490,
     "requiredTech": "Railroads",
     "requiredResource": "Coal",
     "maintenance": 4,
@@ -430,11 +431,11 @@
     ]
   },
   {
-    "name": "Army Coal Exchanged",
-    "cost": 420,
+    "name": "Combined Steam Defense",
+    "cost": 470,
     "cityStrength": 25,
     "cityHealth": 50,
-    "requiredTech": "Combined Arms",
+    "requiredTech": "Nanotechnology",
     "maintenance": 7,
     "uniques": [
       "Provides [7] [Coal]",
@@ -447,57 +448,67 @@
  //Oil
   {
     "name": "Oil Extraction Well",
-    "cost": 220,
+    "cost": 400,
     "requiredTech": "Biology",
     "requiredResource": "Oil",
     "maintenance": 2,
     "uniques": [
-      "[+1 Production] from [Oil well] tiles [in this city]",
+      "[+3 Production] from [Oil well] tiles [in this city]",
       "[+1 Gold] from each Trade Route"
     ]
   },
   {
     "name": "Oil Refinement Center",
-    "cost": 260,
+    "cost": 450,
     "requiredTech": "Combustion",
     "requiredResource": "Oil",
     "maintenance": 3,
     "uniques": [
-      "[+2 Gold] [in this city]",
-      "[+1 Science] from [Oil well] tiles [in this city]"
+      "[+6 Gold] [in this city]",
+      "[+2 Science] from [Oil well] tiles [in this city]"
+    ]
+  },
+  {
+    "name": "Oil by Radio Use",
+    "cost": 520,
+    "requiredTech": "Radio",
+    "uniques": [
+      "Provides [3] [Oil]",
+      "[+5 Production]",
+      "[+2 Happiness] from every [Broadcast Tower]"
     ]
   },
   {
     "name": "Oil Trade Depot",
-    "cost": 290,
+    "cost": 460,
     "requiredTech": "Combustion",
     "requiredResource": "Oil",
     "maintenance": 3,
     "uniques": [
-      "[+1 Gold] per [3] population [in this city]",
-      "[+1 Science] from each Trade Route"
+      "[+2 Gold] per [3] population [in this city]",
+      "[+3 Science] from each Trade Route"
     ]
   },
   {
     "name": "Petroleum Processing Plant",
-    "cost": 320,
+    "cost": 500,
     "requiredTech": "Plastics",
     "requiredResource": "Oil",
     "maintenance": 4,
     "uniques": [
-      "[10]% [Production] [in this city]",
-      "[+1 Gold] [in this city]"
+      "[15]% [Production] [in this city]",
+      "[+2 Gold] [in this city]"
     ]
   },
   {
     "name": "Oil Pressure Facility",
-    "cost": 350,
+    "cost": 485,
     "requiredTech": "Plastics",
     "requiredResource": "Oil",
     "maintenance": 3,
     "uniques": [
-      "[+2 Science] [in this city]",
-      "[+1 Gold] per [5] population [in this city]"
+      "[+3 Science] [in this city]",
+      "[+1 Gold] per [4] population [in this city]"
     ]
   },
   {
@@ -507,52 +518,64 @@
     "requiredResource": "Oil",
     "maintenance": 2,
     "uniques": [
-      "[+2 Faith] [in this city]",
+      "[+8 Faith] [in this city]",
       "Only available (when religion is enabled)"
     ]
   },
   {
+    "name": "Electric Oil Driller",
+    "cost": 470,
+    "requiredTech": "Electronics",
+    "maintenance": 6,
+    "uniques": [
+      "Provides [5] [Oil]",
+      "[+15]% [Science] [in all cities]",
+      "[+1 Production] per [3] population [in this city]",
+      "Limited to [7] per Civilization"
+    ]
+  },
+  {
     "name": "Petrochemical Research Lab",
-    "cost": 420,
+    "cost": 530,
     "requiredTech": "Rocketry",
     "requiredResource": "Oil",
     "maintenance": 4,
     "uniques": [
-      "[+2 Science] per [5] population [in this city]",
-      "[+1 Gold] [in this city]"
+      "[+2 Science] per [3] population [in this city]",
+      "[+4 Gold] [in this city]"
     ]
   },
   {
     "name": "Aviation Fuel Plant",
-    "cost": 450,
+    "cost": 495,
     "requiredTech": "Flight",
     "requiredResource": "Oil",
     "maintenance": 3,
     "uniques": [
-      "[10]% [Production] [in this city]",
-      "[+1 Gold] from each Trade Route"
+      "[15]% [Production] [in this city]",
+      "[+2 Gold] from each Trade Route"
     ]
   },
   {
     "name": "Oil Energy Refinery",
-    "cost": 480,
+    "cost": 520,
     "requiredTech": "Plastics",
     "requiredResource": "Oil",
     "maintenance": 4,
     "uniques": [
-      "[+1 Science] per [4] population [in this city]",
-      "[+1 Gold] from [Oil well] tiles [in this city]"
+      "[+1 Science] per [2] population [in this city]",
+      "[+2 Gold] from [Oil well] tiles [in this city]"
     ]
   },
   {
     "name": "Oil Industrial Park",
-    "cost": 520,
+    "cost": 540,
     "requiredTech": "Rocketry",
     "requiredResource": "Oil",
     "maintenance": 4,
     "uniques": [
       "[15]% [Production] [in this city]",
-      "[+1 Happiness] [in this city]"
+      "[+3 Happiness] [in this city]"
     ]
   },
   {
@@ -566,16 +589,31 @@
       "[+1 Science] [in this city]"
     ]
   },
+  {
+    "name": "Speedboat Use for Offshore Platform",
+    "cost": 470,
+    "requiredTech": "Electronics",
+    "maintenance": 9,
+    "uniques": [
+      "Provides [7] [Oil]",
+      "[+2] Sight <for [Embarked] units>",
+      "[+1] Movement <for [Embarked] units>",
+      "May buy [Water] units for [90] [Production] [in this city]",
+      "All newly-trained [Land] units [in this city] receive the [Amphibious] promotion",
+      "Must be next to [Water]",
+      "Limited to [3] per Civilization"
+    ]
+  },
 
  //Alumunium
   {
     "name": "Aluminum Mining Site",
-    "cost": 250,
+    "cost": 400,
     "requiredTech": "Electricity",
     "requiredResource": "Aluminum",
     "maintenance": 2,
     "uniques": [
-      "[+1 Production] from [Mine] tiles [in this city]",
+      "[+2 Production] from [Mine] tiles [in this city]",
       "[+1 Science] [in this city]"
     ]
   },
@@ -588,6 +626,16 @@
     "uniques": [
       "[+1 Production] per [4] population [in this city]",
       "[+1 Gold] [in this city]"
+    ]
+  },
+  {
+    "name": "Cultured Mining Technique",
+    "cost": 360,
+    "requiredTech": "Plastics",
+    "uniques": [
+      "Provides [3] [Aluminum]",
+      "[+3 Science]",
+      "[+2 Science] per [2] social policies adopted"
     ]
   },
   {
@@ -632,6 +680,18 @@
     "uniques": [
       "[15]% [Production] [in this city]",
       "[+1 Science] from each Trade Route"
+    ]
+  },
+  {
+    "name": "Semi-Manual Far Food Collection",
+    "cost": 500,
+    "requiredTech": "Pharmaceuticals",
+    "maintenance": 8,
+    "uniques": [
+      "Provides [5] [Aluminum]",
+      "[-10]% Production when constructing [Ranged] units [in this city]",
+      "[+3 Food] from every specialist [in this city]",
+      "Limited to [7] per Civilization"
     ]
   },
   {
@@ -689,6 +749,19 @@
       "[+1 Happiness] [in this city]"
     ]
   },
+  {
+    "name": "Communication From Faithful Workers",
+    "cost": 600,
+    "requiredTech": "Telecommunications",
+    "maintenance": 9,
+    "uniques": [
+      "Provides [7] [Aluminum]",
+      "[+65]% Spread Religion Strength",
+      "[3] free [Worker] units appear",
+      "[+2 Faith] from every [Broadcast Tower]",
+      "Limited to [5] per Civilization"
+    ]
+  },
 
  //Uranium
   {
@@ -712,6 +785,16 @@
     "uniques": [
       "[+2 Production] [in this city]",
       "[+1 Gold] [in this city]"
+    ]
+  },
+  {
+    "name": "Food Extracting Generator",
+    "cost": 560,
+    "requiredTech": "Nuclear Fission",
+    "uniques": [
+      "Provides [3] [Uranium]",
+      "[2] population in a random city",
+      "[+2 Food] per [2] social policies adopted"
     ]
   },
   {
@@ -763,6 +846,20 @@
     "uniques": [
       "[+2 Production] [in this city]",
       "[+2 Science] [in this city]"
+    ]
+  },
+  {
+    "name": "Hill Farmers Recruiter",
+    "cost": 500,
+    "requiredTech": "Advanced Ballistics",
+    "maintenance": 10,
+    "uniques": [
+      "Provides [5] [Uranium]",
+      "[-15]% XP required for promotions",
+      "[+8 Production] [in all cities]",
+      "[+25]% [Production] from every [Granary]",
+      "Must be next to [Hill]",
+      "Limited to [5] per Civilization"
     ]
   },
   {
@@ -823,6 +920,19 @@
     "uniques": [
       "[+3 Production] [in this city]",
       "[+1 Gold] [in this city]"
+    ]
+  },
+  {
+    "name": "Communication From Faithful Workers",
+    "cost": 650,
+    "requiredTech": "Nuclear Fusion",
+    "maintenance": 9,
+    "uniques": [
+      "Provides [7] [Uranium]",
+      "[+70]% [Science]",
+      "[3] free [Worker] units appear",
+      "[+2 Faith] from every [Broadcast Tower]",
+      "Limited to [3] per Civilization"
     ]
   },
 
