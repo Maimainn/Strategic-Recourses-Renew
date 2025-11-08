@@ -15,6 +15,7 @@
     "name": "Horse Market",
     "cost": 150,
     "requiredTech": "Horseback Riding",
+    "specialistSlots" {"Merchant": 1},
     "requiredResource": "Horses",
     "uniques": [
       "[+2 Gold] from each Trade Route",
