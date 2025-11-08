@@ -989,14 +989,17 @@
     "name": "Kumbhalgarh Fort",
     "isWonder": true,
     "cost": 270,
-    "cityStrength": 25,
-    "cityHealth": 50,
+    "cityStrength": 250,
+    "cityHealth": 500,
     "requiredTech": "Construction",
     "uniques": [
       "[+25]% City Strength from defensive buildings",
       "All healing effects doubled",
       "[+20]% [Production] from Trade Routes",
+      "[-70]% maintenance on road & railroads",
+      "Improves movement speed on roads",
       "Great General provides double combat bonus",
+      "Gain a free [Mughal Fort] [in this city]",
       "All newly-trained [Military] units [in this city] receive the [Logistics] promotion",
       "Free [Great General] appears",
       "All newly-trained [Great General] units [in all cities] receive the [Haka War Dance] promotion <starting from the [Industrial era]>"
@@ -1108,9 +1111,12 @@
     "uniques": [
       "[+30]% City Strength from defensive buildings",
       "All healing effects doubled",
+      "Units in cities cost no Maintenance",
       "All newly-trained [Military] units [in this city] receive the [March] promotion",
       "[+35]% Strength for cities",
-      "Free [Great General] appears"
+      "Gain a free [Walls] [in this city]",
+      "Free [Great General] appears",
+      "Enemy [non-air] units must spend [2] extra movement points when inside your territory <before the [Information era]>"
     ],
     "culture": 3,
     "greatPersonPoints": {"Great General": 2},
