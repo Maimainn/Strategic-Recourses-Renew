@@ -1085,7 +1085,9 @@
     "gold": 8,
     "requiredTech": "Economics",
     "uniques": [
-
+      "Unavailable <if [Ironworks Foundry] is not constructed>",
+      "Unavailable <if [Horse Breeding Paddock] is not constructed>",
+      "Unavailable <if [Coal Smelter] is not constructed>",
       "Cost increases by [50] per owned city",
       "Provides [10] [Iron]",
       "Provides [10] [Coal]",
@@ -1103,8 +1105,10 @@
     "production": 12,
     "requiredTech": "Metal Casting",
     "uniques": [
-
+      "Unavailable <if [Steam Workshop] is not constructed>",
+      "Unavailable <if [Advanced Smelter] is not constructed>",
       "Cost increases by [40] per owned city",
+      "[+10 Production]",
       "Provides [10] [Coal]",
       "Provides [10] [Iron]",
       "[+50]% [Production] from every [Mine]"
@@ -1117,9 +1121,10 @@
     "production": 8,
     "requiredTech": "Scientific Theory",
     "uniques": [
-
+      "Unavailable <if [Aluminum Faith Generator] is not constructed>",
       "Cost increases by [30] per owned city",
       "Provides [10] [Aluminum]",
+      "[+7 Science] [in all cities]",
       "[+40]% [Science] from Trade Routes",
       "Free [Great Scientist] appears"
     ]
@@ -1131,9 +1136,10 @@
     "production": 9,
     "requiredTech": "Metal Casting",
     "uniques": [
-
+      "Unavailable <if [Iron Reclamation Plant] is not constructed>",
       "Cost increases by [30] per owned city",
       "Provides [10] [Iron]",
+      "[+7 Production] [in all cities]",
       "[35]% Production when constructing [Military] units [in this city]"
     ]
   },
@@ -1144,7 +1150,7 @@
     "gold": 7,
     "requiredTech": "Economics",
     "uniques": [
-
+      "Unavailable <if [Strategic Stockpile] is not constructed>",
       "Cost increases by [50] per owned city",
       "Provides [10] [Iron]",
       "Provides [10] [Coal]",
