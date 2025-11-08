@@ -212,7 +212,6 @@
     "name": "Iron Mine River Panning",
     "cost": 310,
     "requiredTech": "Steel",
-    "requiredResource": "Iron",
     "uniques": [
       "Provides [5] [Iron]",
       "[+3 Production] per every [3] [Happiness]",
@@ -233,7 +232,7 @@
   },
   {
     "name": "Industrial Armory",
-    "cost": 370,
+    "cost": 270,
     "requiredTech": "Gunpowder",
     "requiredResource": "Iron",
     "uniques": [
@@ -243,7 +242,7 @@
   },
   {
     "name": "Advanced Smelter",
-    "cost": 400,
+    "cost": 260,
     "requiredTech": "Steam Power",
     "requiredResource": "Iron",
     "uniques": [
@@ -253,7 +252,7 @@
   },
   {
     "name": "Iron Reclamation Plant",
-    "cost": 440,
+    "cost": 240,
     "requiredTech": "Industrialization",
     "requiredResource": "Iron",
     "uniques": [
@@ -275,7 +274,6 @@
     "name": "Iron Waste Recycling Center",
     "cost": 510,
     "requiredTech": "Ecology",
-    "requiredResource": "Iron",
     "uniques": [
       "Provides [7] [Iron]",
       "[+15]% [Production] from every [Improvement]",
@@ -306,6 +304,16 @@
       "Can only be built <after discovering [Industrialization]>",
       "[+4 Production] [in this city]",
       "[+2 Happiness] [in this city]"
+    ]
+  },
+  {
+    "name": "Railroad Falling Coal",
+    "cost": 340,
+    "requiredTech": "Railroads",
+    "uniques": [
+      "Provides [3] [Coal]",
+      "[+3 Production]",
+      "[+1 Production] from [Railroad] tiles [in this city]"
     ]
   },
   {
@@ -351,6 +359,19 @@
     "uniques": [
       "[+2 Production] [in this city]",
       "[+1 Gold] from each Trade Route"
+    ]
+  },
+  {
+    "name": "Army Coal Exchanged",
+    "cost": 420,
+    "requiredTech": "Combined Arms",
+    "maintenance": 5,
+    "uniques": [
+      "Provides [5] [Coal]",
+      "[+2 Production] per every [5] [Gold]",
+      "[+10]% [Gold] from every [Strategic resource]",
+      "Must not be next to [non-fresh water]",
+      "Limited to [7] per Civilization"
     ]
   },
   {
@@ -406,6 +427,20 @@
     "uniques": [
       "[15]% [Production] [in this city]",
       "[+1 Happiness] [in this city]"
+    ]
+  },
+  {
+    "name": "Army Coal Exchanged",
+    "cost": 420,
+    "cityStrength": 25,
+    "cityHealth": 50,
+    "requiredTech": "Combined Arms",
+    "maintenance": 7,
+    "uniques": [
+      "Provides [7] [Coal]",
+      "[+15]% Strength",
+      "[+2] Movement <in cities with a [Castle]>",
+      "Limited to [5] per Civilization"
     ]
   },
 
