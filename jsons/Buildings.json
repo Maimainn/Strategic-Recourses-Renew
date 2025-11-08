@@ -186,7 +186,7 @@
     ]
   },
   {
-    "name": "Steelworks",
+    "name": "Steelworkings",
     "cost": 300,
     "requiredTech": "Steel",
     "requiredResource": "Iron",
@@ -989,9 +989,12 @@
     "production": 2,
     "requiredTech": "Iron Working",
     "uniques": [
-      "Provides [3] [Iron]",
-      "[+10]% [Production] from every [Mine]",
-      "Free [Great Engineer] appears"
+      "Only available <if [Smithing Mine] is constructed in all [in all cities] cities>",
+      "Cost increases by [30] per owned city",
+      "Provides [10] [Iron]",
+      "[+40]% [Production] from every [Mine]",
+      "Free [Great Engineer] appears",
+      "[+3 Production] from every specialist [in this city]"
     ]
   },
   {
