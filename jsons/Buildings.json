@@ -162,9 +162,8 @@
     "requiredTech": "Iron Working",
     "uniques": [
       "[+5 Production] [in all cities]",
-      "[+10 Production]
+      "[+10 Production]",
       "Provides [3] [Iron]",
-      "Limited to [7] per Civilization"
     ]
   },
   {
@@ -217,7 +216,9 @@
     "uniques": [
       "Provides [5] [Iron]",
       "[+3 Production] per every [3] [Happiness]",
-      "Must be next to [River]"
+      "[+2 Production] from [River] tiles [in this city]",
+      "Must be next to [River]",
+      "Limited to [7] per Civilization"
     ]
   },
   {
