@@ -127,7 +127,7 @@
     "requiredTech": "Biology",
     "uniques": [
       "Provides [7] [Horses]",
-      "[10]% Food is carried over after population increases [in this city]"
+      "[15]% Food is carried over after population increases [in this city]"
     ]
   },
 
@@ -989,7 +989,7 @@
     "name": "Ironworks Foundry",
     "isNationalWonder": true,
     "cost": 150,
-    "production": 2,
+    "production": 5,
     "requiredTech": "Iron Working",
     "uniques": [
       "Only available <if [Smithing Mine] is constructed in all [in all cities] cities>",
@@ -1004,11 +1004,15 @@
     "name": "Horse Breeding Paddock",
     "isNationalWonder": true,
     "cost": 140,
-    "food": 1,
+    "food": 8,
     "requiredTech": "Animal Husbandry",
     "uniques": [
-      "Provides [3] [Horses]",
-      "[+10]% [Gold] from Trade Routes",
+      "Only available <if [Horse Ranch] is constructed in all [in all cities] cities>",
+      "Cost increases by [30] per owned city",
+      "Provides [10] [Horses]",
+      "[+40]% [Gold] from Trade Routes",
+      "[+30]% [Food] from every [Camp]",
+      "[+25]% Yield from every [Horses]",
       "Free [Great General] appears"
     ]
   },
@@ -1016,23 +1020,31 @@
     "name": "Coal Smelter",
     "isNationalWonder": true,
     "cost": 170,
-    "production": 3,
+    "production": 9,
     "requiredTech": "Industrialization",
     "uniques": [
-      "Provides [3] [Coal]",
-      "[+12]% [Production] from every [Mine]"
+      "Only available <if [Coal Refinement Plant] is constructed in all [in all cities] cities>",
+      "Cost increases by [30] per owned city",
+      "Provides [10] [Coal]",
+      "[-30]% construction time for [All] improvements",
+      "[+25]% [Production] from every [Mine]",
+      "[+2 Production] from all [Monument] buildings"
     ]
   },
   {
     "name": "Oil Refinery",
     "isNationalWonder": true,
     "cost": 200,
-    "production": 2,
-    "gold": 2,
+    "production": 6,
+    "gold": 4,
     "requiredTech": "Biology",
     "uniques": [
-      "Provides [3] [Oil]",
-      "[+10]% [Gold] from Trade Routes",
+      "Only available <if [Oil Extraction Well] is constructed in all [in all cities] cities>",
+      "Cost increases by [30] per owned city",
+      "Provides [10] [Oil]",
+      "[+25]% Yield from every [Oil]",
+      "[+30]% [Gold] from every [improved]",
+      "[+30]% [Gold] from Trade Routes",
       "Free [Great Engineer] appears"
     ]
   },
@@ -1040,61 +1052,75 @@
     "name": "Aluminum Foundry",
     "isNationalWonder": true,
     "cost": 220,
-    "production": 3,
+    "production": 11,
     "requiredTech": "Electricity",
     "uniques": [
-      "Provides [3] [Aluminum]",
-      "[+8]% [Production] from every [Mine]"
+      "Only available <if [Aluminum Refinery] is constructed in all [in all cities] cities>",
+      "Cost increases by [30] per owned city",
+      "Provides [10] [Aluminum]",
+      "[+30]% [Gold] from every [improved]",
+      "[+15]% [Production] from every [Mine]",
+      "Gain [750] [Gold] <starting from the [Modern era]> <if [Bank] is constructed in all [in your cities] cities>"
     ]
   },
   {
     "name": "Uranium Enrichment Facility",
     "isNationalWonder": true,
     "cost": 250,
-    "production": 2,
+    "production": 12,
     "requiredTech": "Atomic Theory",
     "uniques": [
-      "Provides [3] [Uranium]",
-      "[15]% Production when constructing [Military] units [in this city]"
+      "Only available <if [Uranium Refinery] is constructed in all [in all cities] cities>",
+      "Cost increases by [30] per owned city",
+      "Provides [10] [Uranium]",
+      "[100]% [Uranium] resource production",
+      "[25]% Production when constructing [Military] units [in this city]",
+      "[-30]% construction time for [All] improvements"
     ]
   },
   {
     "name": "Strategic Stockpile",
     "isNationalWonder": true,
-    "cost": 180,
-    "gold": 2,
+    "cost": 150,
+    "gold": 8,
     "requiredTech": "Economics",
     "uniques": [
-      "Provides [3] [Iron]",
-      "Provides [3] [Coal]",
-      "Provides [3] [Horses]",
-      "Provides [3] [Oil]",
-      "Provides [3] [Aluminum]",
-      "[+10]% [Gold] from Trade Routes",
-      "[+10]% [Production] from Trade Routes"
+
+      "Cost increases by [50] per owned city",
+      "Provides [10] [Iron]",
+      "Provides [10] [Coal]",
+      "Provides [10] [Horses]",
+      "Provides [10] [Oil]",
+      "Provides [10] [Aluminum]",
+      "[+20]% [Gold] from Trade Routes",
+      "[+30]% [Production] from Trade Routes"
     ]
   },
   {
     "name": "Resource Depot",
     "isNationalWonder": true,
     "cost": 160,
-    "production": 1,
+    "production": 12,
     "requiredTech": "Metal Casting",
     "uniques": [
-      "Provides [3] [Coal]",
-      "Provides [3] [Iron]",
-      "[+10]% [Production] from every [Mine]"
+
+      "Cost increases by [40] per owned city",
+      "Provides [10] [Coal]",
+      "Provides [10] [Iron]",
+      "[+50]% [Production] from every [Mine]"
     ]
   },
   {
     "name": "Foundry of Innovation",
     "isNationalWonder": true,
     "cost": 180,
-    "production": 2,
+    "production": 8,
     "requiredTech": "Scientific Theory",
     "uniques": [
-      "Provides [3] [Aluminum]",
-      "[+10]% [Science] from Trade Routes",
+
+      "Cost increases by [30] per owned city",
+      "Provides [10] [Aluminum]",
+      "[+40]% [Science] from Trade Routes",
       "Free [Great Scientist] appears"
     ]
   },
@@ -1102,27 +1128,32 @@
     "name": "Military Supplies Workshop",
     "isNationalWonder": true,
     "cost": 200,
-    "production": 3,
+    "production": 9,
     "requiredTech": "Metal Casting",
     "uniques": [
-      "Provides [3] [Iron]",
-      "[12]% Production when constructing [Military] units [in this city]"
+
+      "Cost increases by [30] per owned city",
+      "Provides [10] [Iron]",
+      "[35]% Production when constructing [Military] units [in this city]"
     ]
   },
   {
     "name": "Strategic Resource Exchange",
     "isNationalWonder": true,
-    "cost": 290,
-    "gold": 3,
+    "cost": 300,
+    "gold": 7,
     "requiredTech": "Economics",
     "uniques": [
-      "Provides [3] [Iron]",
-      "Provides [3] [Coal]",
-      "Provides [3] [Horses]",
-      "Provides [3] [Oil]",
-      "Provides [3] [Aluminum]",
-      "[+20]% [Gold] from Trade Routes",
-      "[+20]% [Production] from Trade Routes"
+
+      "Cost increases by [50] per owned city",
+      "Provides [10] [Iron]",
+      "Provides [10] [Coal]",
+      "Provides [10] [Horses]",
+      "Provides [10] [Oil]",
+      "Provides [10] [Aluminum]",
+      "Provides [10] [Uranium]",
+      "[+60]% [Gold] from Trade Routes",
+      "[+60]% [Production] from Trade Routes"
     ]
   }
 ]
