@@ -923,15 +923,18 @@
     ]
   },
   {
-    "name": "Communication From Faithful Workers",
-    "cost": 650,
+    "name": "Uranium Ultimate Research Center",
+    "cost": 777,
     "requiredTech": "Nuclear Fusion",
-    "maintenance": 9,
+    "maintenance": 11,
     "uniques": [
       "Provides [7] [Uranium]",
       "[+70]% [Science]",
-      "[3] free [Worker] units appear",
-      "[+2 Faith] from every [Broadcast Tower]",
+      "[+80]% [Science] from every [Research Lab]",
+      "[+2 Science] from all [Research Lab] buildings",
+      "[+2 Science] from every [Great Improvement]",
+      "[+3 Happiness] from every [Science]",
+      "Free [Great Scientist] appears",
       "Limited to [3] per Civilization"
     ]
   },
