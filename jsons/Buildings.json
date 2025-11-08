@@ -78,7 +78,8 @@
     "uniques": [
       "[+2 Food] [in this city]",
       "[+1 Gold] [in this city]",
-      "Provides [5] [Horses]"
+      "Provides [5] [Horses]",
+      "Limited to [7] per Civilization"
     ]
   },
   {
@@ -127,7 +128,8 @@
     "requiredTech": "Biology",
     "uniques": [
       "Provides [7] [Horses]",
-      "[15]% Food is carried over after population increases [in this city]"
+      "[15]% Food is carried over after population increases [in this city]",
+      "Limited to [5] per Civilization"
     ]
   },
 
@@ -160,7 +162,9 @@
     "requiredTech": "Iron Working",
     "uniques": [
       "[+5 Production] [in all cities]",
-      "Provides [3] [Iron]"
+      "[+10 Production]
+      "Provides [3] [Iron]",
+      "Limited to [7] per Civilization"
     ]
   },
   {
@@ -268,12 +272,13 @@
   },
   {
     "name": "Iron Waste Recycling Center",
-    "cost": 500,
-    "requiredTech": "Steel",
+    "cost": 510,
+    "requiredTech": "Ecology",
     "requiredResource": "Iron",
     "uniques": [
       "Provides [7] [Iron]",
-      "[+15]% [Production] from every [Improvement]"
+      "[+15]% [Production] from every [Improvement]",
+      "Limited to [5] per Civilization"
     ]
   },
 
