@@ -375,10 +375,12 @@
  //Coal
   {
     "name": "Coal Mining Site",
-    "cost": 170,
+    "production": 4,
+    "percentStatBonus": {"production": 5},
     "requiredTech": "Mining",
     "requiredResource": "Coal",
-    "maintenance": 1,
+    "maintenance": 2,
+    "hurryCostModifier": 25,
     "uniques": [
       "Can only be built <after discovering [Industrialization]>",
       "[+2 Production] from [Mine] tiles [in this city]",
@@ -386,102 +388,135 @@
     ]
   },
   {
-    "name": "Coal Storage Facility",
-    "cost": 240,
+    "name": "Coal Use Focused in War",
+    "production": 3,
+    "specialistSlots": {"Engineer": 1},
     "requiredTech": "Engineering",
     "requiredResource": "Coal",
-    "maintenance": 1,
+    "maintenance": 4,
+    "hurryCostModifier": 65,
     "uniques": [
       "Can only be built <after discovering [Industrialization]>",
-      "[+5 Production] [in this city]",
-      "[+3 Happiness] [in this city]"
+      "[-35]% maintenance on road & railroads <in this city> <when at war>",
+      "Improves movement speed on roads <when at war>",
+      "Must have an owned [Railroad] within [3] tiles",
+      "[+2] Movement <when [Embarked]> <during a Golden Age>"
     ]
   },
   {
     "name": "Railroad Falling Coal",
     "cost": 390,
+    "production": 5,
+    "percentStatBonus": {"production": 15},
     "requiredTech": "Railroads",
+    "maintenance": 3,
     "uniques": [
       "Provides [3] [Coal]",
-      "[+3 Production]",
-      "[+1 Production] from [Railroad] tiles [in this city]"
+      "[-10]% construction time for [Railroad] improvements <in this city>",
+      "[+1 Production] from [Railroad] tiles [in this city]",
+      "Must have an owned [Railroad] within [3] tiles"
     ]
   },
   {
     "name": "Steam Workshop",
-    "cost": 350,
+    "production": 6,
+    "science": 3,
+    "percentStatBonus": {"production": 15},
     "requiredTech": "Steam Power",
     "requiredResource": "Coal",
-    "maintenance": 2,
+    "maintenance": 3,
+    "hurryCostModifier": 35,
     "uniques": [
       "Can only be built <after discovering [Industrialization]>",
-      "[+15]% [Production] [in this city]",
+      "[+10]% Production when constructing [Factory] buildings [in this city]",
       "[+2 Science] from [Mine] tiles [in this city]"
     ]
   },
   {
     "name": "Coal Refinement Plant",
-    "cost": 340,
+    "production": 8,
+    "gold": 4,
+    "science": 2,
+    "percentStatBonus": {"production": 10},
+    "specialistSlots": {"Engineer": 2},
     "requiredTech": "Industrialization",
     "requiredResource": "Coal",
-    "maintenance": 2,
+    "maintenance": 6,
+    "hurryCostModifier": 85,
     "uniques": [
-      "[+1 Production] per [4] population [in this city]",
-      "[+1 Gold] from [Mine] tiles [in this city]"
+      "[+1 Production] per [3] population [in this city]",
+      "[+2 Gold] from [Mine] tiles [in this city]"
     ]
   },
   {
     "name": "Industrial Steam Hall",
     "cost": 360,
+    "production": 5,
+    "faith": 3,
+    "percentStatBonus": {"production": 15},
     "requiredTech": "Steam Power",
     "requiredResource": "Coal",
-    "maintenance": 2,
+    "maintenance": 3,
     "uniques": [
-      "[+15]% [Production] [in this city]",
-      "[+3 Faith] [in this city]"
+      "[+10]% [Faith] [in this city]",
+      "[+20]% Spread Religion Strength <when religion is enabled>"
     ]
   },
   {
     "name": "Coal Power Foundry",
-    "cost": 380,
+    "production": 5,
+    "culture": 3,
+    "gold": 1,
+    "specialistSlots": {"Engineer": 1},
     "requiredTech": "Electricity",
     "requiredResource": "Coal",
-    "maintenance": 3,
+    "maintenance": 5,
+    "hurryCostModifier": 35,
     "uniques": [
-      "[+4 Production] [in this city]",
+      "[-15]% Culture cost of natural border growth [in this city]",
       "[+2 Gold] from each Trade Route"
     ]
   },
   {
     "name": "Army Coal Exchanged",
-    "cost": 470,
+    "production": 4,
+    "cityStrength": 8,
+    "cityHealth": 20,
     "requiredTech": "Combined Arms",
-    "maintenance": 5,
+    "maintenance": 7,
+    "hurryCostModifier": 50,
     "uniques": [
       "Provides [5] [Coal]",
       "[+2 Production] per every [5] [Gold]",
       "[+10]% [Gold] from every [Strategic resource]",
+      "[-10]% Unhappiness from [Population] [in all cities]",
       "Must not be next to [non-fresh water]",
       "Limited to [7] per Civilization"
     ]
   },
   {
     "name": "Mechanized Plant",
-    "cost": 410,
+    "production": 4,
+    "science": 3,
+    "percentStatBonus": {"science": 10},
+    "specialistSlots": {"Scientist": 3},
     "requiredTech": "Replaceable Parts",
     "requiredResource": "Coal",
-    "maintenance": 3,
+    "maintenance": 5,
+    "hurryCostModifier": 25,
     "uniques": [
       "[+2 Production] per [3] population [in this city]",
-      "[+3 Science] [in this city]"
+      "[-15]% construction time for [All] improvements <in this city>"
     ]
   },
   {
     "name": "Steel Fuel Depot",
     "cost": 390,
+    "faith": 5,
+    "gold": 3,
     "requiredTech": "Railroads",
     "requiredResource": "Coal",
-    "maintenance": 2,
+    "maintenance": 4,
     "uniques": [
       "[+2 Gold] from [Mine] tiles [in this city]",
       "[+2 Faith] from each Trade Route"
@@ -489,18 +524,22 @@
   },
   {
     "name": "Steam Machinery Hub",
-    "cost": 360,
+    "production": 7,
+    "science": 3,
     "requiredTech": "Electricity",
     "requiredResource": "Coal",
     "maintenance": 3,
+    "hurryCostModifier": 25,
     "uniques": [
-      "[+2 Production] [in this city]",
+      "[+10]% Production when constructing [Factory] buildings [in this city]",
       "[+1 Science] from [Mine] tiles [in this city]"
     ]
   },
   {
     "name": "Coal Industrial Park",
     "cost": 440,
+    "production": 5,
+    "happiness": 2,
     "requiredTech": "Replaceable Parts",
     "requiredResource": "Coal",
     "maintenance": 3,
@@ -511,27 +550,34 @@
   },
   {
     "name": "National Steamworks",
-    "cost": 490,
+    "production": 4,
+    "happiness": 3,
+    "percentStatBonus": {"production": 15},
+    "specialistSlots": {"Engineer": 5},
     "requiredTech": "Railroads",
     "requiredResource": "Coal",
-    "maintenance": 4,
+    "maintenance": 5,
+    "hurryCostModifier": 15,
     "uniques": [
-      "[15]% [Production] [in this city]",
-      "[+1 Happiness] [in this city]"
+      "[-15]% construction time for [All] improvements <in this city>",
+      "[-10]% Unhappiness from [Specialist] [in all cities]",
+      "[-35]% maintenance on road & railroads <in this city>"
     ]
   },
   {
     "name": "Combined Steam Defense",
-    "cost": 470,
+    "production": 5,
     "cityStrength": 25,
     "cityHealth": 50,
     "requiredTech": "Nanotechnology",
     "maintenance": 7,
+    "hurryCostModifier": 50,
     "uniques": [
       "Provides [7] [Coal]",
-      "[+15]% Strength",
+      "[+25]% Strength",
       "[+2] Movement <in cities with a [Castle]>",
-      "Limited to [5] per Civilization"
+      "Limited to [5] per Civilization",
+      "Must have an owned [Fort] within [5] tiles"
     ]
   },
 
