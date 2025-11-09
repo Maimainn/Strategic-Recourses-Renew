@@ -1310,7 +1310,7 @@
       "[+35]% Strength for cities",
       "Gain a free [Walls] [in this city]",
       "Free [Great General] appears",
-      "Enemy [Land] units must spend [2] extra movement points when inside your territory <before the [Information era]>"
+      "[Friendly] Units adjacent to this city heal [30] HP per turn when healing"
     ],
     "culture": 3,
     "greatPersonPoints": {"Great General": 2},
