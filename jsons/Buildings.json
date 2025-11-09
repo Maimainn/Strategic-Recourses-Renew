@@ -330,7 +330,6 @@
     "production": 7,
     "science": 5,
     "gold": 3,
-    "percentStatBonus": {"production": 13},
     "percentStatBonus": {"science": 7},
     "specialistSlots": {"Engineer": 5},
     "requiredTech": "Industrialization",
@@ -339,6 +338,7 @@
     "hurryCostModifier": 75,
     "uniques": [
       "[+10 Production] [in all cities]",
+      "[+13]% [Production]",
       "[+3 Science] from each Trade Route"
     ]
   },
