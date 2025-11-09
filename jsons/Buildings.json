@@ -280,7 +280,7 @@
       "Provides [5] [Iron]",
       "[+3 Production] per every [3] [Happiness]",
       "[+2 Production] from [River] tiles [in this city]",
-      "Must be next to [River]",
+      "Must have an owned [River] within [2] tiles",
       "Limited to [7] per Civilization"
     ]
   },
