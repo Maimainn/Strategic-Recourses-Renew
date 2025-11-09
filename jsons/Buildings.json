@@ -1310,7 +1310,7 @@
       "[+35]% Strength for cities",
       "Gain a free [Walls] [in this city]",
       "Free [Great General] appears",
-      "Enemy [non-air] units must spend [2] extra movement points when inside your territory <before the [Information era]>"
+      "Enemy [Land] units must spend [2] extra movement points when inside your territory <before the [Information era]>"
     ],
     "culture": 3,
     "greatPersonPoints": {"Great General": 2},
