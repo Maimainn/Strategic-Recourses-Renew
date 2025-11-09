@@ -560,7 +560,7 @@
     "hurryCostModifier": 15,
     "uniques": [
       "[-15]% construction time for [All] improvements <in this city>",
-      "[-10]% Unhappiness from [Specialist] [in all cities]",
+      "[-15]% Unhappiness from [Specialists] [in all cities]",
       "[-35]% maintenance on road & railroads <in this city>"
     ]
   },
