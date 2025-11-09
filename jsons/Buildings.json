@@ -35,7 +35,7 @@
     "requiredTech": "Horseback Riding",
     "requiredResource": "Horses",
     "uniques": [
-      "[+3 Food] [in this city]",
+      "[+3 Food] from every [Stable]",
       "[+1 Gold] per [3] population [in this city]"
 
     ]
@@ -60,7 +60,8 @@
     "requiredResource": "Horses",
     "uniques": [
       "[+1 Gold] from each Trade Route",
-      "[+1 Production] [in this city]"
+      "[+1 Production] from every [Road]",
+      "[+2 Production] from every [Railroad] <after discovering [Railroads]>"
     ]
   },
   {
@@ -80,13 +81,14 @@
     "name": "Grand Stable",
     "cost": 320,
     "production": 3,
+    "happiness": 1,
     "percentStatBonus": {"production": 5},
     "maintenance": 3,
     "requiredTech": "Military Science",
     "requiredResource": "Horses",
     "uniques": [
       "[10]% Production when constructing [Mounted] units [in this city]",
-      "[+1 Happiness] [in this city]"
+      "[-5]% construction time for [All] improvements"
     ]
   },
   {
@@ -97,7 +99,7 @@
     "hurryCostModifier": 15,
     "uniques": [
       "[+2 Food] [in all cities]",
-      "[+1 Gold] [in this city]",
+      "[+1 Gold] from [Pasture] tiles [in this city]",
       "Provides [5] [Horses]",
       "Limited to [7] per Civilization"
     ]
@@ -139,7 +141,7 @@
     "requiredResource": "Horses",
     "hurryCostModifier": 25,
     "uniques": [
-      "[+1 Happiness] [in this city]",
+      "[-5]% Culture cost of natural border growth [in this city]",
       "[+2 Gold] from [Pasture] tiles [in this city]"
     ]
   },
@@ -169,6 +171,7 @@
     "uniques": [
       "Provides [7] [Horses]",
       "[15]% Food is carried over after population increases [in this city]",
+      "[+2 Production] from [Camp] tiles [in this city]",
       "Limited to [5] per Civilization"
     ]
   },
@@ -177,6 +180,7 @@
   {
     "name": "Iron Mining Expansion",
     "cost": 120,
+    "production": 3,
     "requiredTech": "Mining",
     "requiredResource": "Iron",
     "maintenance": 1,
@@ -187,12 +191,15 @@
   },
   {
     "name": "Smithing Mine",
-    "cost": 160,
+    "production": 5,
+    "percentStatBonus": {"production": 10},
+    "specialistSlots": {"Engineer": 1},
     "requiredTech": "Iron Working",
     "requiredResource": "Iron",
-    "maintenance": 1,
+    "maintenance": 2,
+    "hurryCostModifier": 25,
     "uniques": [
-      "[+2 Production] [in this city]",
+      "[+3 Production] [in all cities]",
       "[+1 Gold] from [Iron] tiles [in this city]"
     ]
   },
@@ -202,7 +209,7 @@
     "requiredTech": "Iron Working",
     "uniques": [
       "[+5 Production] [in all cities]",
-      "[+10 Production]",
+      "[+10 Production] from every [Workshop]",
       "Provides [3] [Iron]",
     ]
   },
