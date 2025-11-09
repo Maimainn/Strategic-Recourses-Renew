@@ -459,7 +459,8 @@
     "maintenance": 3,
     "uniques": [
       "[+10]% [Faith] [in this city]",
-      "[+20]% Spread Religion Strength <when religion is enabled>"
+      "[+20]% Spread Religion Strength <when religion is enabled>",
+      "Only available <when religion is enabled>"
     ]
   },
   {
@@ -519,7 +520,8 @@
     "maintenance": 4,
     "uniques": [
       "[+2 Gold] from [Mine] tiles [in this city]",
-      "[+2 Faith] from each Trade Route"
+      "[+2 Faith] from each Trade Route",
+      "Only available <when religion is enabled>
     ]
   },
   {
@@ -585,41 +587,54 @@
   {
     "name": "Oil Extraction Well",
     "cost": 400,
+    "production": 3,
+    "percentStatBonus": {"production": 10},
     "requiredTech": "Biology",
     "requiredResource": "Oil",
-    "maintenance": 2,
+    "maintenance": 3,
     "uniques": [
       "[+3 Production] from [Oil well] tiles [in this city]",
-      "[+1 Gold] from each Trade Route"
+      "[+20]% [Production] from every [Offshore Platform]",
+      "Must have an owned [Oil] within [3] tiles"
     ]
   },
   {
     "name": "Oil Refinement Center",
-    "cost": 450,
+    "production": 8,
+    "percentStatBonus": {"production": 15},
+    "specialistSlots": {"Engineer": 1},
     "requiredTech": "Combustion",
     "requiredResource": "Oil",
-    "maintenance": 3,
+    "maintenance": 7,
+    "hurryCostModifier": 25,
     "uniques": [
-      "[+6 Gold] [in this city]",
-      "[+2 Science] from [Oil well] tiles [in this city]"
+      "[+20]% Production when constructing [Armored] units [in this city]",
+      "[50]% of [Production] from every [Oil well] in the city added to [Oil]"
     ]
   },
   {
     "name": "Oil by Radio Use",
-    "cost": 520,
+    "production": 5,
+    "happiness": 1,
+    "percentStatBonus": {"happiness": 10},
     "requiredTech": "Radio",
+    "maintenance": 2,
+    "hurryCostModifier": 15,
     "uniques": [
       "Provides [3] [Oil]",
-      "[+5 Production]",
+      "[+7]% Yield from every [Friendly Land]",
       "[+2 Happiness] from every [Broadcast Tower]"
     ]
   },
   {
     "name": "Oil Trade Depot",
-    "cost": 460,
+    "science": 5,
+    "gold": 3,
+    "specialistSlots": {"Merchant": 1},
     "requiredTech": "Combustion",
     "requiredResource": "Oil",
     "maintenance": 3,
+    "hurryCostModifier": 10,
     "uniques": [
       "[+2 Gold] per [3] population [in this city]",
       "[+3 Science] from each Trade Route"
@@ -627,42 +642,55 @@
   },
   {
     "name": "Petroleum Processing Plant",
-    "cost": 500,
+    "production": 5,
+    "gold": 3,
+    "percentStatBonus": {"production": 15},
     "requiredTech": "Plastics",
     "requiredResource": "Oil",
     "maintenance": 4,
+    "hurryCostModifier": 15,
     "uniques": [
-      "[15]% [Production] [in this city]",
-      "[+2 Gold] [in this city]"
+      "[2] free [Worker] units appear <in cities with less than [3] [Specialists]>",
+      "[+30]% [Gold] from every [Improvement] <when at war>",
+      "[+15]% Unhappiness from [Unemployed] [in this city]"
     ]
   },
   {
     "name": "Oil Pressure Facility",
     "cost": 485,
+    "science": 4,
+    "gold": 2,
     "requiredTech": "Plastics",
     "requiredResource": "Oil",
     "maintenance": 3,
     "uniques": [
-      "[+3 Science] [in this city]",
+      "[+2 Science] from every specialist [in this city]",
       "[+1 Gold] per [4] population [in this city]"
     ]
   },
   {
     "name": "Oil Faith Shrine",
-    "cost": 380,
+    "faith": 6,
+    "gold": 3,
+    "percentStatBonus": {"faith": 10},
     "requiredTech": "Plastics",
     "requiredResource": "Oil",
     "maintenance": 2,
     "uniques": [
-      "[+8 Faith] [in this city]",
-      "Only available (when religion is enabled)"
+      "[+15]% [Faith] from every [Oil well] <with [Oil]> <in [Friendly Land] tiles>",
+      "[+15]% [Faith] from every [Offshore Platform] <with [Oil]> <in [Friendly Land] tiles>",
+      "Only available <when religion is enabled>"
     ]
   },
   {
     "name": "Electric Oil Driller",
-    "cost": 470,
+    "science": 5,
+    "production": 3,
+    "percentStatBonus": {"science": 20},
+    "specialistSlots": {"Scientist": 3},
     "requiredTech": "Electronics",
     "maintenance": 6,
+    "hurryCostModifier": 45,
     "uniques": [
       "Provides [5] [Oil]",
       "[+15]% [Science] [in all cities]",
@@ -673,9 +701,13 @@
   {
     "name": "Petrochemical Research Lab",
     "cost": 530,
+    "science": 6,
+    "gold": 4,
+    "production": 2,
+    "specialistSlots": {"Scientist": 2},
     "requiredTech": "Rocketry",
     "requiredResource": "Oil",
-    "maintenance": 4,
+    "maintenance": 5,
     "uniques": [
       "[+2 Science] per [3] population [in this city]",
       "[+4 Gold] [in this city]"
@@ -684,52 +716,74 @@
   {
     "name": "Aviation Fuel Plant",
     "cost": 495,
+    "production": 5,
+    "gold": 3,
+    "percentStatBonus": {"production": 15},
     "requiredTech": "Flight",
     "requiredResource": "Oil",
-    "maintenance": 3,
+    "maintenance": 4,
     "uniques": [
-      "[15]% [Production] [in this city]",
+      "[+15]% Production when constructing [Air] units [in this city]",
       "[+2 Gold] from each Trade Route"
     ]
   },
   {
     "name": "Oil Energy Refinery",
     "cost": 520,
-    "requiredTech": "Plastics",
-    "requiredResource": "Oil",
-    "maintenance": 4,
-    "uniques": [
-      "[+1 Science] per [2] population [in this city]",
-      "[+2 Gold] from [Oil well] tiles [in this city]"
-    ]
-  },
-  {
-    "name": "Oil Industrial Park",
-    "cost": 540,
-    "requiredTech": "Rocketry",
-    "requiredResource": "Oil",
-    "maintenance": 4,
-    "uniques": [
-      "[15]% [Production] [in this city]",
-      "[+3 Happiness] [in this city]"
-    ]
-  },
-  {
-    "name": "National Petroleum Authority",
-    "cost": 550,
+    "science": 4,
+    "gold": 3,
     "requiredTech": "Plastics",
     "requiredResource": "Oil",
     "maintenance": 5,
     "uniques": [
-      "[+2 Gold] from each Trade Route",
-      "[+1 Science] [in this city]"
+      "[+1 Science] per [2] population [in this city]",
+      "[+2 Gold] from [Offshore Platform] tiles [in this city]",
+      "Must have an owned [Oil] within [3] tiles <in this city>"
+    ]
+  },
+  {
+    "name": "Oil Industrial Park",
+    "happiness": 6,
+    "production": 5,
+    "percentStatBonus": {"production": 15},
+    "specialistSlots": {"Engineer": 5},
+    "requiredTech": "Rocketry",
+    "requiredResource": "Oil",
+    "maintenance": 4,
+    "hurryCostModifier": 35,
+    "uniques": [
+      "[+1 Happiness] from all [Production] buildings",
+      "[-20]% Unhappiness from [Population] [in this city]"
+    ]
+  },
+  {
+    "name": "National Petroleum Authority",
+    "science": 7,
+    "production": 5,
+    "gold": 3,
+    "cityStrength": 10,
+    "cityHealth": 20,
+    "percentStatBonus": {"science": 15},
+    "specialistSlots": {"Scientist": 2},
+    "specialistSlots": {"Engineer": 1},
+    "requiredTech": "Plastics",
+    "requiredResource": "Oil",
+    "maintenance": 8,
+    "hurryCostModifier": 85,
+    "uniques": [
+      "[+20]% Strength",
+      "[+2 Science] from every specialist [in this city]",
+      "[-20]% Science cost of researching new Technologies"
     ]
   },
   {
     "name": "Speedboat Use for Offshore Platform",
-    "cost": 470,
+    "production": 11,
+    "culture": 8,
+    "percentStatBonus": {"production": 20},
     "requiredTech": "Electronics",
     "maintenance": 9,
+    "hurryCostModifier": 100,
     "uniques": [
       "Provides [7] [Oil]",
       "[+2] Sight <for [Embarked] units>",
@@ -782,7 +836,7 @@
     "maintenance": 2,
     "uniques": [
       "[+2 Faith] [in this city]",
-      "Only available (when religion is enabled)"
+      "Only available <when religion is enabled>"
     ]
   },
   {
@@ -895,7 +949,8 @@
       "[+65]% Spread Religion Strength",
       "[3] free [Worker] units appear",
       "[+2 Faith] from every [Broadcast Tower]",
-      "Limited to [5] per Civilization"
+      "Limited to [5] per Civilization",
+      "Only available <when religion is enabled>"
     ]
   },
 
@@ -1089,7 +1144,8 @@
       "Free [Great Prophet] appears",
       "[+17]% [Culture] from Trade Routes",
       "[+13]% [Faith] from Trade Routes",
-      "Gain a free [Temple] [in all cities]"
+      "Gain a free [Temple] [in all cities]",
+      "Only available <when religion is enabled>"
     ],
     "quote": "“Faith is carved not only in stone, but in the soul of those who believe.” — Abba Gebre Menfes Kidus"
   },
@@ -1117,7 +1173,8 @@
       "[+20]% [Gold] from Trade Routes",
       "[+3 Faith] from every [Market]",
       "Free [Great Merchant] appears",
-      "Provides 1 extra copy of each improved luxury resource near this City"
+      "Provides 1 extra copy of each improved luxury resource near this City",
+      "Only available <when religion is enabled>"
     ],
     "quote": "“The tower stands as a whisper of devotion, surviving the silence of centuries.” — Ibn Battuta"
   },
@@ -1171,7 +1228,8 @@
       "[+15]% [Culture] from Trade Routes",
       "[+2] Movement <for [Civilian] units>",
       "[+3] Sight <for [Civilian] units>",
-      "Gain a free [Monastery] [in this city]"
+      "Gain a free [Monastery] [in this city]",
+      "Only available <when religion is enabled>"
     ],
     "quote": "“Where wisdom dwells, the walls breathe prayer.” — The Dalai Lama"
   },
@@ -1301,7 +1359,8 @@
       "[+15]% [Production] [in all cities]",
       "[+100]% Great Person generation [in this city]",
       "[+25]% Great Person generation [in all cities]",
-      "Free Great Person"
+      "Free Great Person",
+      "Only available <when religion is enabled>"
     ],
     "culture": 5,
     "greatPersonPoints": {"Great Artist": 2},
