@@ -164,7 +164,7 @@
     "science": 3,
     "happiness": 2,
     "percentStatBonus": {"food": 20},
-    "specialistSlots": {"Scientist": 4},
+    "specialistSlots": {"Scientist": 3},
     "maintenance": 7,
     "requiredTech": "Biology",
     "hurryCostModifier": 50,
@@ -234,7 +234,7 @@
     "name": "Forge Extension",
     "production": 5,
     "science": 3,
-    "specialistSlots": {"Engineer": 3},
+    "specialistSlots": {"Engineer": 2},
     "requiredTech": "Metal Casting",
     "requiredResource": "Iron",
     "maintenance": 2,
@@ -331,7 +331,7 @@
     "science": 5,
     "gold": 3,
     "percentStatBonus": {"science": 7},
-    "specialistSlots": {"Engineer": 5},
+    "specialistSlots": {"Engineer": 3},
     "requiredTech": "Industrialization",
     "requiredResource": "Iron",
     "maintenance": 9,
@@ -555,7 +555,7 @@
     "production": 4,
     "happiness": 3,
     "percentStatBonus": {"production": 15},
-    "specialistSlots": {"Engineer": 5},
+    "specialistSlots": {"Engineer": 3},
     "requiredTech": "Railroads",
     "requiredResource": "Coal",
     "maintenance": 5,
@@ -746,7 +746,7 @@
     "happiness": 6,
     "production": 5,
     "percentStatBonus": {"production": 15},
-    "specialistSlots": {"Engineer": 5},
+    "specialistSlots": {"Engineer": 2},
     "requiredTech": "Rocketry",
     "requiredResource": "Oil",
     "maintenance": 4,
@@ -765,7 +765,6 @@
     "cityHealth": 20,
     "percentStatBonus": {"science": 15},
     "specialistSlots": {"Scientist": 2},
-    "specialistSlots": {"Engineer": 1},
     "requiredTech": "Plastics",
     "requiredResource": "Oil",
     "maintenance": 8,
@@ -798,85 +797,115 @@
  //Alumunium
   {
     "name": "Aluminum Mining Site",
-    "cost": 400,
+    "cost": 300,
+    "production": 3,
+    "science": 2,
     "requiredTech": "Electricity",
     "requiredResource": "Aluminum",
     "maintenance": 2,
     "uniques": [
       "[+2 Production] from [Mine] tiles [in this city]",
-      "[+1 Science] [in this city]"
+      "[+1 Science] from every specialist [in this city]"
     ]
   },
   {
     "name": "Aluminum Refinery",
     "cost": 290,
+    "production": 3,
+    "gold": 2,
     "requiredTech": "Replaceable Parts",
     "requiredResource": "Aluminum",
     "maintenance": 3,
     "uniques": [
       "[+1 Production] per [4] population [in this city]",
-      "[+1 Gold] [in this city]"
+      "[+1 Gold] from all [Solar Plant] buildings"
     ]
   },
   {
     "name": "Cultured Mining Technique",
-    "cost": 360,
+    "science": 5,
+    "culture": 3,
+    "production": 2,
+    "percentStatBonus": {"culture": 15},
+    "specialistSlots": {"Scientist": 1},
     "requiredTech": "Plastics",
+    "maintenance": 4,
+    "hurryCostModifier": 65,
     "uniques": [
       "Provides [3] [Aluminum]",
-      "[+3 Science]",
-      "[+2 Science] per [2] social policies adopted"
+      "[+1 Science] from [Mine] tiles [in this city]",
+      "[+2 Science] per [2] social policies adopted",
+      "Must have an owned [Hill] within [2] tiles"
     ]
   },
   {
     "name": "Aluminum Faith Generator",
-    "cost": 320,
+    "faith": 3,
+    "production": 1,
     "requiredTech": "Electricity",
     "requiredResource": "Aluminum",
-    "maintenance": 2,
+    "maintenance": 3,
+    "hurryCostModifier": 35,
     "uniques": [
-      "[+2 Faith] [in this city]",
+      "[+15]% [Faith] from every [Aluminum]",
+      "[+1 Faith] from [Mine] tiles [in this city]",
+      "Must have an owned [Aluminum] within [3] tiles",
       "Only available <when religion is enabled>"
     ]
   },
   {
     "name": "Lightweight Alloy Plant",
     "cost": 350,
+    "production": 5,
+    "science": 2,
+    "percentStatBonus": {"production": 10},
     "requiredTech": "Plastics",
     "requiredResource": "Aluminum",
-    "maintenance": 3,
+    "maintenance": 4,
     "uniques": [
-      "[+10]% [Production] [in this city]",
+      "[+15]% [Production] from every [Iron]",
       "[+1 Science] from [Mine] tiles [in this city]"
     ]
   },
   {
     "name": "Aeronautic Engineering Hub",
-    "cost": 380,
+    "science": 6,
+    "gold": 2,
+    "percentStatBonus": {"production": 15},
+    "specialistSlots": {"Engineer": 1},
     "requiredTech": "Flight",
     "requiredResource": "Aluminum",
-    "maintenance": 3,
+    "maintenance": 5,
+    "hurryCostModifier": 50,
     "uniques": [
       "[+2 Science] per [4] population [in this city]",
-      "[+1 Gold] [in this city]"
+      "[+10]% Production when constructing [Air] units [in this city]"
     ]
   },
   {
     "name": "Aluminum Pressure Smelter",
     "cost": 420,
+    "production": 4,
+    "science": 3,
+    "percentStatBonus": {"production": 15},
     "requiredTech": "Plastics",
     "requiredResource": "Aluminum",
     "maintenance": 4,
     "uniques": [
-      "[15]% [Production] [in this city]",
-      "[+1 Science] from each Trade Route"
+      "[+10]% Yield from every [Mine]",
+      "[+1 Science] from all [Production] buildings"
     ]
   },
   {
     "name": "Semi-Manual Far Food Collection",
-    "cost": 500,
+    "food": 6,
+    "production": 3,
+    "percentStatBonus": {"food": 10},
+    "specialistSlots": {"Engineer": 3},
+    "requiredResource": "Copper",
     "requiredTech": "Pharmaceuticals",
     "maintenance": 8,
+    "hurryCostModifier": 90,
     "uniques": [
       "Provides [5] [Aluminum]",
       "[-10]% Production when constructing [Ranged] units [in this city]",
@@ -887,66 +916,86 @@
   {
     "name": "Aluminum Trade Bureau",
     "cost": 450,
+    "gold": 5,
+    "science": 2,
+    "percentStatBonus": {"gold": 22},
+    "specialistSlots": {"Merchant": 2},
     "requiredTech": "Electronics",
     "requiredResource": "Aluminum",
     "maintenance": 3,
     "uniques": [
-      "[+1 Gold] from each Trade Route",
-      "[+1 Science] [in this city]"
+      "[+2 Gold] from each Trade Route",
+      "[+1 Science] from every [Trading post]"
     ]
   },
   {
     "name": "Industrial Alloy Foundry",
-    "cost": 480,
+    "production": 5,
     "requiredTech": "Computers",
     "requiredResource": "Aluminum",
     "maintenance": 4,
+    "hurryCostModifier": 25,
     "uniques": [
       "[+1 Production] per [3] population [in this city]",
-      "[+1 Science] [in this city]"
+      "[+25]% Production when constructing [Production] buildings [in this city]"
     ]
   },
   {
     "name": "High-Tech Manufacturing Lab",
-    "cost": 510,
+    "production": 6,
+    "science": 3,
+    "percentStatBonus": {"production": 20},
     "requiredTech": "Robotics",
     "requiredResource": "Aluminum",
     "maintenance": 4,
+    "hurryCostModifier": 50,
     "uniques": [
-      "[10]% [Production] [in this city]",
-      "[+2 Science] [in this city]"
+      "[+1 Science] from all [Production] buildings",
+      "[+15]% Production when constructing [Military] units [in this city]"
     ]
   },
   {
     "name": "Aluminum Industrial District",
-    "cost": 540,
+    "production": 6,
+    "science": 3,
+    "cityStrength": 16,
+    "cityHealth": 30,
+    "percentStatBonus": {"production": 20},
     "requiredTech": "Robotics",
     "requiredResource": "Aluminum",
-    "maintenance": 4,
+    "maintenance": 6,
+    "hurryCostModifier": 100,
     "uniques": [
       "[+1 Science] per [5] population [in this city]",
-      "[+1 Gold] [in this city]"
+      "[+15]% Production when constructing [Arsenal] buildings [in this city]"
     ]
   },
   {
     "name": "National Aluminum Authority",
-    "cost": 580,
+    "production": 8,
+    "happiness": 3,
+    "percentStatBonus": {"production": 33},
+    "specialistSlots": {"Engineer": 2},
     "requiredTech": "Nanotechnology",
     "requiredResource": "Aluminum",
     "maintenance": 5,
+    "hurryCostModifier": 95,
     "uniques": [
-      "[15]% [Production] [in this city]",
-      "[+1 Happiness] [in this city]"
+      "[+25]% Production when constructing [Civilian] units [in this city]",
+      "All newly-trained [Civilian] units [in this city] receive the [Ignore terrain cost] promotion"
     ]
   },
   {
     "name": "Communication From Faithful Workers",
-    "cost": 600,
+    "faith": 8,
+    "production": 4,
+    "percentStatBonus": {"faith": 20},
     "requiredTech": "Telecommunications",
     "maintenance": 9,
+    "hurryCostModifier": 50,
     "uniques": [
       "Provides [7] [Aluminum]",
-      "[+65]% Spread Religion Strength",
+      "[+45]% Spread Religion Strength",
       "[3] free [Worker] units appear",
       "[+2 Faith] from every [Broadcast Tower]",
       "Limited to [5] per Civilization",
