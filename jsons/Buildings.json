@@ -1007,30 +1007,37 @@
   {
     "name": "Uranium Refinery",
     "cost": 480,
-    "maintenance": 3,
+    "production": 4,
+    "maintenance": 4,
     "requiredTech": "Atomic Theory",
     "requiredResource": "Uranium",
     "uniques": [
-      "[+2 Production] [in this city]",
-      "[+1 Science] [in this city]"
+      "[+5]% [Production] [in all cities]",
+      "[-10]% construction time for [Mine] improvements"
     ]
   },
   {
     "name": "Uranium Power Generator",
     "cost": 520,
+    "production": 8,
+    "percentStatBonus": {"production": 10},
     "maintenance": 4,
     "requiredBuilding": "Uranium Refinery",
     "requiredTech": "Nuclear Fission",
     "requiredResource": "Uranium",
     "uniques": [
-      "[+2 Production] [in this city]",
-      "[+1 Gold] [in this city]"
+      "[-10]% construction time for [all] improvements <in this city>",
+      "[+50]% [Aluminum] resource production <hidden from users>"
     ]
   },
   {
     "name": "Food Extracting Generator",
-    "cost": 560,
+    "food": 5,
+    "production": 4,
+    "percentStatBonus": {"food": 10},
     "requiredTech": "Nuclear Fission",
+    "maintenance": 6,
+    "hurryCostModifier": 55,
     "uniques": [
       "Provides [3] [Uranium]",
       "[2] population in a random city",
