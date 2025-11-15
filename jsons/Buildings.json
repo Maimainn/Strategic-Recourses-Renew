@@ -1054,52 +1054,60 @@
     "cityStrength": 25,
     "cityHealth": 250,
     "uniques": [
-      "[+2 Science] [in this city]",
-      "[+1 Production] [in this city]"
+      "[+5]% Strength",
+      "[+10]% City Strength from defensive buildings"
     ]
   },
   {
     "name": "Uranium Trade Bureau",
-    "cost": 580,
-    "maintenance": 3,
+    "gold": 3,
+    "science": 2,
+    "specialistSlots": {"Merchant": 2},
+    "maintenance": 6,
     "requiredBuilding": "Nuclear Plant",
     "requiredTech": "Globalization",
     "requiredResource": "Uranium",
+    "hurryCostModifier": 45,
     "uniques": [
-      "[+3 Gold] [in this city]",
-      "[+1 Science] [in this city]"
+      "[+2 Gold] from each Trade Route",
+      "[+10]% [Science] from Trade Routes"
     ]
   },
   {
     "name": "Uranium Enrichment Lab",
-    "cost": 600,
-    "maintenance": 4,
+    "production": 5,
+    "percentStatBonus": {"production": 10},
+    "specialistSlots": {"Engineer": 1},
+    "maintenance": 5,
     "requiredBuilding": "Uranium Refinery",
     "requiredTech": "Particle Physics",
     "requiredResource": "Uranium",
+    "hurryCostModifier": 50,
     "uniques": [
-      "[+3 Science] [in this city]",
-      "[+1 Production] [in this city]"
+      "[+3 Production] from [Uranium] tiles [in this city]",
+      "[+15]% Production when constructing [all] buildings [in this city]",
+      "Must have an owned [Uranium] within [2] tiles"
     ]
   },
   {
     "name": "Radiation Shielding Facility",
-    "cost": 630,
     "maintenance": 5,
     "requiredBuilding": "Uranium Enrichment Lab",
     "requiredTech": "Robotics",
     "requiredResource": "Uranium",
     "cityHealth": 200,
+    "hurryCostModifier": 75,
     "uniques": [
-      "[+2 Production] [in this city]",
-      "[+2 Science] [in this city]"
+      "Population loss from nuclear attacks [-70]% [in this city]",
+      "Damage to garrison from nuclear attacks [-50]% [in this city]"
     ]
   },
   {
     "name": "Hill Farmers Recruiter",
-    "cost": 500,
+    "production": 5,
     "requiredTech": "Advanced Ballistics",
     "maintenance": 10,
+    "hurryCostModifier": 90,
     "uniques": [
       "Provides [5] [Uranium]",
       "[-15]% XP required for promotions",
@@ -1111,72 +1119,88 @@
   },
   {
     "name": "Nuclear Logistics Hub",
-    "cost": 590,
-    "maintenance": 4,
+    "science": 8,
+    "percentStatBonus": {"science": 20},
+    "specialistSlots": {"Scientist": 3},
+    "maintenance": 6,
     "requiredBuilding": "Uranium Trade Bureau",
     "requiredTech": "Satellites",
     "requiredResource": "Uranium",
+    "hurryCostModifier": 50,
     "uniques": [
       "[+1 Gold] per [2] population [in this city]",
-      "[+2 Science] [in this city]"
+      "[+2 Science] from all [Production] buildings <in this city>"
     ]
   },
   {
     "name": "Uranium Supply Depot",
-    "cost": 560,
-    "maintenance": 4,
+    "production": 11,
+    "gold": 3,
+    "percentStatBonus": {"production": 20},
+    "specialistSlots": {"Engineer": 3},
+    "maintenance": 8,
     "requiredBuilding": "Nuclear Plant",
     "requiredTech": "Lasers",
     "requiredResource": "Uranium",
+    "hurryCostModifier": 50,
     "uniques": [
-      "[+2 Production] [in this city]",
-      "[+1 Gold] [in this city]"
+      "[+70]% [Uranium] resource production",
+      "[30]% of excess happiness converted to [Production]"
     ]
   },
   {
     "name": "Nuclear Material Storage",
     "cost": 600,
-    "maintenance": 4,
+    "production": 4,
+    "gold": 2,
+    "maintenance": 5,
     "requiredBuilding": "Uranium Supply Depot",
     "requiredTech": "Nanotechnology",
     "requiredResource": "Uranium",
     "uniques": [
-      "[+2 Science] [in this city]",
-      "[+1 Gold] [in this city]"
+      "[-20]% Gold cost of upgrading <in this city>",
+      "Each city founded increases Science cost of Technologies [15]% less than normal"
     ]
   },
   {
     "name": "Uranium Research Division",
-    "cost": 620,
-    "maintenance": 5,
+    "science": 3,
+    "production": 2,
+    "percentStatBonus": {"science": 25},
+    "maintenance": 9,
     "requiredBuilding": "Uranium Enrichment Lab",
     "requiredTech": "Future Tech",
     "requiredResource": "Uranium",
+    "hurryCostModifier": 50,
     "uniques": [
-      "[+4 Science] [in this city]",
-      "[+1 Production] [in this city]"
+      "[+15]% [Science] from every [Science] <in this city>",
+      "[Production] cost of purchasing items in cities [-20]%"
     ]
   },
   {
     "name": "Uranium Energy Plant",
-    "cost": 640,
-    "maintenance": 5,
+    "production": 11,
+    "percentStatBonus": {"production": 40},
+    "maintenance": 8,
     "requiredBuilding": "Uranium Power Generator",
     "requiredTech": "Nuclear Fusion",
     "requiredResource": "Uranium",
     "uniques": [
-      "[+3 Production] [in this city]",
-      "[+1 Gold] [in this city]"
+      "[+20]% [Production] from every [Nuclear Plant]",
+      "[+3 Production] from all [Production] buildings"
     ]
   },
   {
     "name": "Uranium Ultimate Research Center",
-    "cost": 777,
+    "science": 11,
+    "percentStatBonus": {"science": 70},
+    "specialistSlots": {"Scientist": 2},
     "requiredTech": "Nuclear Fusion",
-    "maintenance": 11,
+    "maintenance": 17,
+    "hurryCostModifier": 177,
     "uniques": [
       "Provides [7] [Uranium]",
-      "[+70]% [Science]",
+      "[+20]% [Happiness]",
       "[+80]% [Science] from every [Research Lab]",
       "[+2 Science] from all [Research Lab] buildings",
       "[+2 Science] from every [Great Improvement]",
