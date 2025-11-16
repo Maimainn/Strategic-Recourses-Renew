@@ -563,7 +563,7 @@
     "production": 5,
     "happiness": 2,
     "requiredTech": "Replaceable Parts",
-    "requiredBuilding": "Park",
+    "requiredBuilding": "Garden",
     "requiredNearbyImprovedResources": ["Coal"],
     "requiredResource": "Coal",
     "maintenance": 3,
