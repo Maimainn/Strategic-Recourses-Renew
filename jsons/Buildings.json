@@ -679,7 +679,7 @@
     "uniques": [
       "[+5]% [Gold] from every [Improvement]",
       "[+10]% Unhappiness from [Unemployed] [in this city] <when at war>",
-      "[-10]% Unhappiness from [Specialist] [in this city] <when at war>"
+      "[-10]% Unhappiness from [Specialists] [in this city] <when at war>"
     ]
   },
   {
@@ -742,7 +742,7 @@
     "maintenance": 6,
     "uniques": [
       "[+1 Science] per [4] population [in this city]",
-      "[+4 Gold] [in this city] <during golden age>"
+      "[+4 Gold] [in this city] <during a Golden Age>"
     ]
   },
   {
