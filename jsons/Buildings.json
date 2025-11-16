@@ -17,6 +17,7 @@
     "gold": 3,
     "requiredTech": "Horseback Riding",
     "specialistSlots": {"Merchant": 1},
+    "requiredBuilding": "Market",
     "requiredResource": "Horses",
     "hurryCostModifier": 5,
     "uniques": [
@@ -68,6 +69,7 @@
     "specialistSlots": {"Artist": 1},
     "maintenance": 2,
     "requiredTech": "Civil Service",
+    "requiredNearbyImprovedResources": ["Horses"],
     "requiredResource": "Horses",
     "hurryCostModifier": 15,
     "uniques": [
@@ -167,6 +169,7 @@
     "specialistSlots": {"Scientist": 3},
     "maintenance": 7,
     "requiredTech": "Biology",
+    "requiredBuilding": "Royal Breeding Ground",
     "hurryCostModifier": 50,
     "uniques": [
       "Provides [6] [Horses]",
