@@ -1699,5 +1699,19 @@
       "Must be next to [Open terrain]",
       "Must have an owned [Road] within [1] tiles"
     ]
+  },
+  {
+    "name": "Trading Center",
+    "gold": 3,
+    "specialistSlots": {"Merchant": 2},
+    "percentStatBonus": {"gold": 20},
+    "requiredTech": "Economics"
+    "requiredBuilding": "Market",
+    "maintenance": 2,
+    "hurryCostModifier": 10,
+    "uniques": [
+      "[+2 Gold] from every specialist [in this city]",
+      "[+1 Gold] from each Trade Route <if [Regional Airport] is constructed>"
+    ]
   }
 ]
