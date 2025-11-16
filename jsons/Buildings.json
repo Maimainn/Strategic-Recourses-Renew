@@ -1630,5 +1630,50 @@
       "[+60]% [Gold] from Trade Routes",
       "[+60]% [Production] from Trade Routes"
     ]
+  },
+
+ //Extra Building 
+  {
+    "name": "Airfield",
+    "cost": 200,
+    "production": 1,
+    "maintenance": 1,
+    "requiredTech": "Flight",
+    "uniques": [
+      "[1] units cost no maintenance <for [Air] units> <in this city>",
+      "Can carry [1] extra [Air] units"
+    ]
+  },
+  {
+    "name": "Regional Airport",
+    "cost": 360,
+    "production": 3,
+    "maintenance": 2,
+    "requiredBuilding": "Airfield",
+    "requiredTech": "Radar",
+    "uniques": [
+      "[Air] Units adjacent to this city heal [5] HP per turn when healing",
+      "[3] units cost no maintenance <for [Air] units> <in this city>",
+      "Can carry [1] extra [Air] units",
+      "Must be next to [Open terrain]"
+    ]
+  },
+  {
+    "name": "Aviation Hub",
+    "cost": 640,
+    "production": 5,
+    "gold": 3,
+    "maintenance": 4,
+    "requiredBuilding": "Regional Airport",
+    "requiredTech": "Satellites",
+    "uniques": [
+      "Can carry [1] extra [Air] units",
+      "[Air] Units adjacent to this city heal [5] HP per turn when healing",
+      "Units in cities cost no Maintenance <for [Air] units> <in this city>",
+      "[+1 Gold] from each Trade Route <if [Aviation Fuel Plant] is constructed>",
+      "Limited to [3] per Civilization",
+      "Must be next to [Open terrain]",
+      "Must have an owned [Road] within [1] tiles"
+    ]
   }
 ]
