@@ -138,7 +138,7 @@
     "cityHealth": 12,
     "maintenance": 8,
     "requiredTech": "Gunpowder",
-    "requiredBuilding": "Royal Breeding Ground",
+    "requiredBuilding": "Stable Extension",
     "requiredResource": "Horses",
     "hurryCostModifier": 25,
     "uniques": [
